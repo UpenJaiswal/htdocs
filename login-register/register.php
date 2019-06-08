@@ -76,7 +76,7 @@ mysqli_close($conn);
 
                 <div class="input-group">
                   <label> Address </label>
-                  <input type="address" name="address" class="input-group">
+                  <input type="text" name="address" class="input-group">
                   <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
                   <select id ="state" class="input-group" required></select>
                   <script language="javascript">print_state("sts");</script>
