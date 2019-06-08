@@ -1,0 +1,44 @@
+.tnp-widget input.tnp-submit {
+    background-color: #efc4a3;
+    background-image: none;
+    text-shadow: none;
+    color: #fff;
+    margin: 0;
+		
+    margin-bottom: 20px;
+    width: 100%;
+    background: #efc4a3;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+}
+
+.tnp-widget input[type=email] {
+   display: block;
+    width: 100%;
+    min-height: 60px;
+    padding: 10px 22px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .025em;
+    color: #fff;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-image: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    background: #474747;
+}
+
+.tnp-widget label {
+    display: none;
+    color: inherit;
+    font-size: 14px;
+}

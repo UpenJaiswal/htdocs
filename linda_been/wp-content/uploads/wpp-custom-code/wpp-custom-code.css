@@ -1,0 +1,12 @@
+<div class="theme-pagination">
+						<nav class="navbar justify-content-center">
+						  <ul class="pagination">
+							<li class="page-item"><a class="page-link" href="#">PREV</a></li>
+							<li class="page-item"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item active"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#">4</a></li>
+							<li class="page-item"><a class="page-link" href="#">NEXT</a></li>
+						  </ul>
+						</nav>
+					</div>

@@ -1,0 +1,2351 @@
+body{padding:0; margin:0; font-size:14px; font-family: 'Open Sans', sans-serif; line-height: 1.42857; color: #575c63; background-color: #ecedef;}
+p{color:#000; line-height:1.8; font-size:14px;}
+img{width:100%;}
+h1,h2,h3,h4,h5,h6{color:#575c63;}
+.clear{clear:both;}
+a{color:#575c63;}
+a:hover{color:#575c63; text-decoration:none;}
+.toosum-header{width:100%; height:auto; background: #555;}
+
+.container {
+    max-width: 1217px;
+}
+img.header-logo {
+    width: 110px;
+    padding: 3px;
+}
+ .navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    
+}
+.toosum-header-menu1{margin-top:25px;}
+.navbar-brand {
+    float: left;
+    height: auto;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 20px;
+} 
+.toosum-margin-right1{margin-left:40px;}
+
+.collapse {
+    display: none;
+    visibility: visible;
+}
+
+
+img.header-menu-icon {
+    width: 16px;
+    margin-right: 8px;
+}
+
+
+
+img.icon-toggle {
+    width: 46px;
+    border-radius: 50%;
+}
+.toosumm-team-icon12 {
+    margin-top: -10px;
+}
+
+ul#nav {
+    float: right;
+    padding-top: 35px;
+}
+.profile-edit {
+    position: absolute;
+    right: 0;
+    background: #fff;
+    width: 209px;
+    padding-left: 0px;
+    list-style: none;
+    padding: 2px;
+    z-index: 999999;
+    border: 1px solid #55555561;
+    border-radius: 8px;
+}
+
+ul.profile-edit li {
+    border-bottom: 1px solid #55555561;
+    padding: 5px 1px;
+}
+
+ul.toosum-profile-edit {
+    width: 100%;
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul.toosum-profile-edit li {
+    display:inline-block;
+	vertical-align: top;
+	    border: none;
+}
+
+img.toosum-profile-edit2 {
+    border-radius: 50%;
+    width: 45px;
+    padding: 3px;
+	margin-right:5px;
+}
+ul.toosum-profile-edit li p {
+    margin-bottom:0px;
+}
+.toosum-toggle-btn{display:none;}
+
+
+
+.toosum-section{width:100%; height:auto; padding-top:35px;}
+
+/* Left Aside Section Start */
+
+.toosum-left-section{
+	border-radius:10px;
+}
+.toosum-left-heading-section{
+	background:#0489bb;
+	width:100%;
+	padding-bottom:105px;
+	border-radius: 10px 10px 0px 0px;
+}
+.toosum-left-icons-section{width:100%; height:auto; background:#f5f5f5; padding-bottom:15px; border-radius: 0px 0px 10px 10px;}
+
+.toosum-heading1{color:#fff; text-align:center; margin-top:0px; padding-top: 25px; text-transform: capitalize;}
+
+.toosum-about-image {   
+    width: 60%;
+    border-radius: 50%;
+    transform: translate (50% 50%);
+    margin-top: -85px !important;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+	padding:2px;
+	box-shadow: 0px 0px 2px #14aee8;
+    border: 1px solid #14aee8;
+}
+
+img.toosum-about1 {
+    border-radius: 50%;
+}
+
+ul.toosum-short-icon-details {
+    padding-top: 95px;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0px;
+    display: table;
+}
+
+ul.toosum-short-icon-details li {
+    display: inline-block;
+    background: #0489bb;
+    margin: 7px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+	border-radius: 50%;
+}
+
+ul.toosum-short-icon-details li a i {
+    padding-top:7px;
+	color:#fff;
+	font-size:20px;
+}
+
+.toosum-left-icons-section span {
+    padding: 18px 30px;
+    text-align: center;
+    display: block;
+}
+
+.toosum-calender-section {
+
+    width: 100%;
+    background: #b9e5f6;
+    padding-top: 3px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    padding-bottom: 4px;
+    float: left;   
+
+}
+.toosum-calender-section span {
+    float: left;
+}
+.experience45 {
+    margin-top: 13px;
+}
+
+.toosum-calender-section span i {
+    font-size: 25px;
+    color: #fff;
+    margin: 12px;
+	color:#0489bb;
+}
+
+.calender-description h5 {
+    margin-bottom: 2px;
+    padding-top: 4px;
+	font-size: 16px;
+    font-weight: 600;
+	margin-left:10px;
+}
+.calender-description h6 {
+    margin-bottom: 2px;
+    font-weight: 600;
+	color:#0e475c;
+}
+
+.toosum-native strong{color:#0489bb;}
+.toosum-language-margin{margin-bottom:20px;}
+.toosum-language-rating{display:table; width:100%; border-bottom:1px solid #0489bb; padding: 10px 0;}
+.toosum-language-rating label{display:table-cell; vertical-align:middle;}
+.toosum-rating-star{display: table-cell; vertical-align: middle; text-align:right;}
+.toosum-rating-star i{display:inline-block; padding: 0 0 0 5px; font-size:18px; color:#0489bb;}
+
+.toosum-social-accounts{width:100%; background:#b9e5f6; padding:10px; color:#343e4d;}
+.toosum-social-accounts h5{color:#343e4d;}
+ul.social-accounts12 {
+    padding-left: 0px;
+    list-style: none;
+	margin-top:15px;
+	padding-bottom:40px;
+}
+ul.social-accounts12 li {
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+	border:1px solid #0e475c;
+}
+
+ul.social-accounts12 li a i {
+   padding-top:8px;
+   color:#0e475c;
+   font-size:18px;
+}
+
+
+/* middle section Start */
+
+.toosum-about-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+	border-bottom:1px solid #b9e5f6;
+}
+.toosum-about-description p {
+    line-height: 1.8;
+    margin-bottom: 7px;
+}
+
+.toosum-about-icon{
+	display: inline-block;
+    padding: 18px;
+    vertical-align: top;
+    width: 102px;
+    height: 102px;
+}
+.toosum-about-description{
+	position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 110px);
+}
+
+.toosum-gender-section {
+    display: table;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.toosum-margin{padding-top:13px; padding-bottom:13px;}
+
+.toosum-gender-section i {
+    font-size: 26px;
+    display: inline-block;
+    color: #0489bb;
+    float: left;
+    margin-right: 15px;
+}
+.toosum-gender-section span {
+    font-size: 19px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.toosum-portfolio-name{width:100%; height:auto; padding-bottom:10px;}
+.toosum-portfolio-name span {
+    font-size: 20px;
+}
+
+
+.pagination{list-style:none; margin:0 auto; display:table; padding-top:15px; padding-bottom:15px;}
+/* .pagination li {
+    width: 35px;
+    height: 35px;
+    background: #006185;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50%;
+	line-height:2.3;
+}
+
+.pagination li.active {
+    background:#54c9b9 !important;
+}
+
+.pagination li a {
+    margin-top:5px;
+	color:#fff;
+} */
+
+.toosum-map{padding-top:20px; padding-bottom:20px;}
+
+
+
+/* Right aside Start */
+
+.toosum-area-expertise{width:100%; height:auto; list-style:none; padding-top:15px; padding-bottom:10px; padding-left:0px;}
+
+.toosum-area-expertise li{
+display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 2px;
+    position: relative;
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid #54c9b9;
+    color:#54c9b9;	
+}
+.toosum-expertise-color{background:#54c9b9; color:#fff !important;}
+
+.toosum-skills1{width:100%; height:auto; list-style:none; padding-top:15px; padding-bottom:10px; padding-left:0px;}
+
+.toosum-skills1 li{
+display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 2px;
+    position: relative;
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid #0489bb;
+    color:#0489bb;	
+}
+.toosum-skills1-color{background:#0489bb; color:#fff !important;}
+
+
+.toosum-industries{width:100%; height:auto; list-style:none; padding-top:15px; padding-bottom:10px; padding-left:0px;}
+
+.toosum-industries li{
+display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 2px;
+    position: relative;
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid #006185;
+    color:#006185;	
+}
+.toosum-toosum-industries-color{background:#006185; color:#fff !important;}
+.toosum-employment-history{width:100%; margin-top:10px; margin-bottom:10px;}
+.toosum-employment-history tbody tr{border-bottom:1px solid rgba(4,137,187,.25);}
+.toosum-employment-history tbody tr td {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+
+}
+td.toosum-table-color12 {
+    color: #f2772f !important;
+}
+
+
+/* Footer Start */
+.toosum-footer{width:100%; height:auto; padding-top:10px; padding-bottom:15px; background:#f5f5f5;}
+.toosum-footer-margin{margin-top:15px;}
+ul.ts-footer-menu-list {
+    list-style: none;
+	padding-left:0px;
+}
+ul.ts-footer-menu-list li {
+    display:inline-block;
+	position: relative;
+    padding: 0 10px;
+	border-right:1px solid #5555;
+}
+
+ul.ts-footer-menu-list li a {
+    color:#343e4d;
+}
+
+ul.ts-footer-social-icons {
+    float: right;
+}
+
+ul.ts-footer-social-icons li {
+    display: inline-block;
+    background: #959ba1;
+    border-radius: 50%;
+    margin: 0px 3px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+ul.ts-footer-social-icons li a i {
+    padding-top: 10px;
+    color: #fff;
+}
+
+p.toosum-copyright {
+    padding-left: 10px;
+	color:#343e4d;
+}
+
+@media only screen and (max-width: 1199px) {
+    .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 7px;
+}
+.toosum-margin-right1{margin-left:0px;}
+}
+
+@media only screen and (max-width: 991px) {
+    img.header-menu-icon {    
+    display: none;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 4px;
+}
+.toosum-about-image {
+    width: 147px;
+}
+
+.toosum-task-report-table1 {   
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.bx--toolbar-content {    
+    overflow-x: scroll !important;
+	overflow-y:hidden !important;
+}
+ 
+img.toosum-refresh1 {
+    width: 15px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+	img.header-menu-icon {    
+    display: block;
+	float:left;
+}
+.navbar-toggle {margin-top:28px;}
+}
+
+
+
+/* dashboard */
+
+.toosum-chat-box-section{width:100%; height:auto; background:#166cab; float:left; padding:20px 10px;}
+.toosum-highest-activity{float:right !important; color:#000;}
+.toosum-highest-activity1{float:right !important;}
+.toosum-highest-activity ul li{list-style:none;}
+.toosum-chat-section{width:100%; height:auto; float:left;}
+ul.toosum-chat-list-name li .toosum-choosen-dropdown .chosen-container-single {
+    width: 160px !important;
+}
+
+.toosum-timeline-event-details{
+	margin: 5px 0 10px 10px;
+}
+ul.toosum-highest-activity-section {
+    list-style: none;
+    padding-top: 45px;
+    clear: both;
+	padding-bottom:30px;
+}
+.toosum-border {
+    border: 1px solid #e4e4e4;
+    padding-bottom: 32px;
+	margin-bottom:22px;
+}
+.highest-activity123{color:#fff;}
+.toosum-chat-border {
+    border: 1px solid #e4e4e4;
+	height: 895px;
+    overflow-y: scroll;
+}
+p.toosum-chat-show-more {
+    text-align:center;
+}
+p.toosum-chat-show-more a{padding:8px 10px; background:#14aee8; color:#fff; border-radius:8px;}
+
+ul.toosum-highest-activity-section li ul li {
+   line-height:2;
+}
+.toosum-chat-list-name{padding-left:0px; list-style:none;}
+.toosum-chat-list-name li{float:left; margin-left:3px; margin-right:3px;}
+li.toosum-highest-activity ul li select {
+    height: 28px;
+}
+.toosum-chat-list-name li input{width:80px; height:26px; text-indent:3px;}
+
+.toosum-timeline-event-info{
+	float: right;
+    width: 40px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+	border-radius:50%;
+}
+.toosum-timeline-event-info img{border-radius:50%;}
+.toosum-event-created{
+	line-height: 1;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.toosum-line-title {
+  margin-bottom: 0px;
+  margin-top:10px;
+  font-size: 13px;
+  text-align: center;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.toosum-line-title:before, .toosum-line-title:after {
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background: #6F7C80;
+  width: 50%;
+  position: relative;
+  vertical-align: middle;
+}
+.toosum-line-title:before {
+  left: -0.5em;
+  margin-left: -50%;
+}
+.toosum-line-title:after {
+  right: -0.5em;
+  margin-right: -50%;
+}
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+	
+}
+
+    .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 3px;
+        background-color: #555;
+        left: 5%;
+        margin-left: -1.5px;
+    }
+
+    .timeline > li {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li > .timeline-panel {
+            width: 88%;
+            float: left;
+            border: 1px solid #d4d4d4;
+            border-radius: 2px;
+            padding: 20px;
+            position: relative;
+            -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+			margin-right:8px;
+        }
+
+            .timeline > li > .timeline-panel:before {
+                position: absolute;
+                top: 26px;
+                right: -15px;
+                display: inline-block;
+                border-top: 15px solid transparent;
+                border-left: 15px solid #ccc;
+                border-right: 0 solid #ccc;
+                border-bottom: 15px solid transparent;
+                content: " ";
+            }
+
+            .timeline > li > .timeline-panel:after {
+                position: absolute;
+                top: 27px;
+                right: -14px;
+                display: inline-block;
+                border-top: 14px solid transparent;
+                border-left: 14px solid #fff;
+                border-right: 0 solid #fff;
+                border-bottom: 14px solid transparent;
+                content: " ";
+            }
+
+        .timeline > li > .timeline-badge {
+            color: #fff;
+            width: 35px;
+            height: 35px;
+            line-height: 28px;
+            font-size: 1.4em;
+            text-align: center;
+            position: absolute;
+            top: 25px;
+            left: 6%;
+            margin-left: -25px;
+            background-color: #999999;
+            z-index: 100;
+            border-top-right-radius: 50%;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+
+        .timeline > li.timeline-inverted > .timeline-panel {
+            float: right;
+        }
+
+            .timeline > li.timeline-inverted > .timeline-panel:before {
+                border-left-width: 0;
+                border-right-width: 15px;
+                left: -15px;
+                right: auto;
+            }
+
+            .timeline > li.timeline-inverted > .timeline-panel:after {
+                border-left-width: 0;
+                border-right-width: 14px;
+                left: -14px;
+                right: auto;
+            }
+
+.timeline-badge.primary {
+    background-color: #2e6da4 !important;
+}
+
+.timeline-badge.success {
+    background-color: #3f903f !important;
+}
+
+.timeline-badge.warning {
+    background-color: #88c642 !important;
+}
+
+.timeline-badge.danger {
+    background-color: #d9534f !important;
+}
+
+.timeline-badge.info {
+    background-color: #5bc0de !important;
+}
+
+
+
+.timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+}
+
+    .timeline-body > p + p {
+        margin-top: 5px;
+    }
+
+@media (max-width: 767px) {
+    ul.timeline:before {
+        left: 40px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: -15px;
+            right: auto;
+        }
+
+        ul.timeline > li > .timeline-panel:after {
+            border-left-width: 0;
+            border-right-width: 14px;
+            left: -14px;
+            right: auto;
+        }
+}
+
+
+
+/*-------Task Report--------*/
+
+.toosum-task-report-table1 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+	margin-top:10px;
+	margin-bottom:15px;
+}
+
+.bx--toolbar-content .bx--toolbar-action input{width:100px; height:30px; text-indent:4px;}
+.bx--toolbar-action .toosum-choosen-dropdown .chosen-container-single .chosen-single {
+    height: 30px;
+}
+.bx--toolbar-search-container h5 {
+    color: #fff;
+}
+section.bx--table-toolbar {
+    background: #166cab;
+    padding: 15px;
+    margin-bottom: 10px;
+	width:100%;
+}
+
+
+/*-------Advance Profile Detailed css--------*/
+
+.advanced-profile-sidebar {
+    width: 100%;
+    height: auto;
+}
+
+ul.advanced-profile-list {
+    padding-left: 0px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul.advanced-profile-list li {
+    display:block;
+	background: #18659d;
+    padding: 10px;
+    margin: 3px;
+}
+ul.advanced-profile-list li a{color:#fff;}
+
+.edit_profile h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #166bb0;
+    font-weight: 550;
+}
+.edit_profile-margin{padding-top:15px; padding-bottom:15px;}
+
+.employment-calender-position i {
+   
+    margin-top: -25px;
+}
+
+.edit_profile input {
+    width: 100%;
+    height: 35px;
+    margin-top: 0px;
+	text-indent:5px;
+}
+.edit_profile select {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.chosen-container-multi .chosen-choices {   
+    width: 100%;
+    height: 54px !important;  
+    overflow-y: scroll !important;   
+}
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close::before {
+
+    position: absolute;
+    top: 0px !important;
+    right: 3px;
+    display: block;
+    font-size: 12px;
+    color: gray;
+    content: "\f00d";
+    font-family: FontAwesome;
+}
+
+
+.toosum-edit-profile-btn{float: right; margin-left: 10px;}
+.chosen-container {float: left;}
+
+.toosum-btn-margin{margin-top: 10px !important;}
+
+
+
+input.edit-profile-submit {
+    padding: 8px 66px;
+    width: auto;
+    margin-top: 0px;
+    height: auto;
+    background: #166bb2;
+    border: none;
+    color: #fff;
+    border-radius: 10px !important;
+}
+.edit_profile textarea {
+    width: 100%;
+	margin-top: 5px;
+}
+
+.english-language-profiency {
+    display: block;
+	padding-top:0px;
+}
+.english-language-profiency input {
+   
+    width: 22px;    
+    margin-top: 14px;
+    margin-right: 10px;
+    vertical-align: middle;
+	height:20px;
+}
+.english-language-profiency label {
+    vertical-align: middle;
+    margin-bottom: 0px !important;
+	font-weight: 500;
+    margin-top: 17px;
+}
+
+/*  star rating  */
+.language-page-direction{float:right;}
+.star-rating {
+    display: block;
+   /*  margin-bottom: 25px; */
+    direction: rtl;
+    text-align: center;
+    /* margin-top: 50px */
+}
+.star-rating input[type="radio"] {
+    display: none
+}
+.star-rating > label {
+    color: #ccc;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    font-size: 28px;
+}
+.star-rating > label:hover,
+.star-rating > label:hover ~ label,
+.star-rating > input[type="radio"]:checked ~ label
+{color: #f2b600}
+
+.sticky {
+  position: relative;
+  top: 0;
+}
+/ reset password page css /
+
+.toosumm-reset-password-section{width:100%; height:auto; border: 1px solid #22222226;  padding: 25px; margin-bottom:30px;}
+.toosumm-reset-password-section1{width:100%; height:auto; padding-top:10px; padding-bottom:10px;}
+.toosum-input-section input{width:100%; height:35px; display:block; text-indent:25px;}
+.toosum-lock-icon1 {
+    position: absolute;
+    margin: -25px 0px 0px 10px;
+}
+
+input.toosum-reset-submit-btn5 {
+    background: #146daf;
+    color: #fff;
+    border: none;
+    padding: 7px 20px;
+}
+/ team page css /
+
+
+.toosumm-team-filter{display:inline-block;}
+.toosumm-team-filter span{display:inline-block; font-size:18px; font-weight:600; vertical-align: middle;}
+.toosumm-team-filter-icon{width:35px; margin-right:10px;}
+.toosumm-team-cloud-filter-icon .globe-icon {
+    font-size: 28px;
+    display: inline-block;
+}
+.toosumm-team-cloud-filter-icon{display:inline-block; margin-left:8px; margin-right:10px; vertical-align:middle;}
+
+.toosumm-team-cloud-filter-icon span{font-size:18px; font-weight:600;}
+.toosumm-team-cloud-filter-icon a{font-size:15px; margin-left:6px; margin-right:7px;}
+.toosumm-team-filter2{text-align:right;}
+
+form.toosum-choosen-filter .chosen-container {
+    width: 100% !important;
+}
+.toosumm-team-filter-dropdown {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.toosum-search-section12 {
+    background: #ddd;
+    height: auto;
+    border:1px solid #c0c4c8;
+}
+
+.toosumm-search-div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.toosumm-search-div input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.toosumm-search-icon56 {
+    position: absolute;
+    right: 30px;
+    margin-top: -26px;
+}
+.toosumm-team-filter78{background:#f5f5f5; border: 1px solid #c0c4c8; padding-top:10px;}
+#myDIV{display:none;}
+a.toosumm-filter-toggle-btn {
+    cursor: pointer;
+}
+.toosumm-clearall-btn56 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.toosumm-clearall-btn56 input {
+    height: 35px;
+    width: 100px;
+    background: #2fa9af;
+    border: none;
+    color: #fff;
+    border-radius: 9px;
+}
+
+.toosumm-team-user-task_user-info{
+    display: inline-block;
+    width: 170px;
+    height: 250px;
+    vertical-align: top;
+    padding-top: 50px;
+}
+
+.toosumm-team-user-task_user-info1{
+    display: block;
+    position: relative;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.toosumm-team-user-task_user-info1 img{
+    display:inline;
+}
+
+.toosumm-team-user-name1{
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 16px;
+    color: #0489bb;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+}
+.toosumm-team-user-task-profile-position{
+    text-align: center;
+    margin: 5px 0 15px;
+}
+
+.toosumm-team-user-chart-page{
+    display: inline-block;
+    width: calc(100% - 180px);
+    margin-left: 5px;
+    height: auto;
+    padding-top:30px;
+}
+
+.toosumm-team-user-activity5{
+    font-size: 18px;
+    text-align: center;
+}
+
+.toosumm-team-user-calender5 {
+    float: right;
+    margin-right: 20px;
+}
+hr{
+    box-sizing: border-box;
+    border: none;
+    background: #e1e1e1;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.movie-table{
+padding-left:15px;
+padding-right:15px; 
+}
+img.toosumm-team-users78 {
+    width: 40px;
+}
+
+
+
+
+.toosumm-team-section{width:100%; height:auto; margin-bottom:20px; margin-top:20px;}
+.toosumm-team-section1{width:100%; min-height:170px; background:#e5f7fd; border-radius: 5px 5px 0 0;
+    border: 1px solid #b9e5f6; display:block; position:relative;}
+.toosum-team-name1{
+    height: 100%;
+    border: none;
+    padding-top: 10px;
+    display:block;
+}
+.toosumm-team-delete-btn{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: 5px;
+}
+.toosumm-delete-btn, .toosumm-recent-btn, .toosumm-camera-btn{color:#0489bb;}
+.toosumm-delete-btn:hover, .toosumm-recent-btn:hover, .toosumm-camera-btn:hover{color:#0489bb;} 
+
+.toosumm-team-recent-btn{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 5px;
+    right: 5px;
+}
+.toosumm-team-camera-btn{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    right: 28px;
+}
+.toosumm-team-image{
+    display: block;
+    position: relative;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.toosumm-team-name4{
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 16px;
+    color: #0489bb;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+}
+
+.toosumm-team-role-dropdown {
+    margin: 0 auto;
+    display: table;
+}
+
+.toosumm-team-role-dropdown .toosum-choosen-dropdown .chosen-container .chosen-single {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+.toosumm-team-login-hours{
+    margin-top: 11px;
+    display: block;
+    padding: 2px 4px;
+    color: #006185;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 600;
+}
+
+span.toosumm-team-local-time.toosumm-login-time {
+    font-size: 12px;
+    color: #555;
+    text-transform: capitalize;
+    margin-right:5px;
+}
+span.toosumm-team-local-time.toosumm-login-time1 {
+    font-size: 14px;
+}
+
+.toosumm-team-manage-rate{}
+.toosumm-team-manage-rate span{
+    display: inline-block;
+    line-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+.toosumm-team-internal-manage-rate{
+    padding: 0 5px 0 0;
+    width: 135px;
+    border-right:1px solid #e1e1e1;
+}
+
+.toosumm-team-info-details{
+  border-top: 1px solid #b9e5f6;
+  display: block;
+  margin: 0 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+ul.toosumm-team-info2 {
+    padding-left: 0px;
+    list-style: none;
+    padding:2px !important;
+}
+
+ul.toosumm-team-info2 li {
+    display: inline-block;
+    border-right: 1px solid #5555558c;
+    font-size: 15px;
+    float: left;
+}
+ul.toosumm-team-info2 li a {
+    padding:4px;
+    color:#0489bb;
+    font-size: 17px;
+    margin-right: 5px;
+}
+.toosumm-info-last-list{border-right:none !important;}
+.toosumm-feedback-ring{
+    width: 90px;
+    height: 38px;
+    color: #0489bb;
+    display: inline-block;
+    vertical-align: top;
+}
+.toosumm-feedback1{display:inline-block;}
+.toosumm-feedback-star a{color:#0489bb; font-size:20px;}
+.toosumm-feedback-star{float:right;}
+.toosumm-feedback-star-last{color:#555 !important;}
+.toosumm-team-recent-activity2{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+.toosum-team-task-header{
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #343e4d;
+}
+.toosum-team-user-task{
+    line-height: 20px;
+    width: 100%;
+    overflow: hidden;
+    color: #828991;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.toosum-team-user-task span{display:inline-block;}
+.toosumm-team-task-link{color:#0489bb;}
+.toosumm-team-user-activity{
+    display: block;
+    background-color: #f5f5f5;
+    width: 100%;
+    min-height: 30px;
+    padding: 0 10px;
+}
+.toosumm-team-user-activity span{display:inline-block;}
+.speed-meter-scale-section{
+    display: inline-block;
+    width: 30px;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+
+/* update profile  */
+
+.toosumm-edit-profile67{
+    width:90px;
+    height:90px;
+    overflow: hidden;
+}
+img.profile-user-img {
+    width: 100%;
+    height: 155px;
+}
+
+input.toosumm-upload-image45 {
+    width: 90px;
+    height:90px;
+    overflow: hidden;
+    position: absolute;    
+    opacity: 0;
+    top:0;
+}
+.toosumm-edit-icon56 {
+    position: absolute;
+    top: 17px;
+    /* margin-left: 10px; */
+    left: 100px;
+}
+/* gallery */
+
+.toosumm67{text-align:center;}
+
+a.toosumm-edit-btn75 {
+    padding: 8px 12px;
+    background: #18659d;
+    color: #fff;
+    font-size: 18px;
+}
+
+a.toosumm-delete-btn75{
+    padding: 8px 15px;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+}
+
+.toosumm-portfolio-editimage {
+    width: 40%;
+    margin: 0 auto;
+}
+.edit_profile-margin h5 {
+    line-height: 1.8;
+}
+
+.edit_portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.edit_portfolio h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #166bb0;
+    font-weight: 550;
+}
+.toosumm-edit-section55{width:100%; height:auto;}
+
+.toosumm-edit-section-56{width:100%; padding:10px; display:block;}
+.toosumm-edit-section-56 input{width:100%; height:35px; text-indent:6px;}
+.toosumm-edit-section-56 label {
+    font-size: 18px;
+    font-weight: 600;
+}
+.toosumm-portfolio-editimage1 {
+    width: 40%;
+}
+
+input.edit-portfolio-submit {
+    width: 100px;
+    background: #186bad;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+}
+
+a.toosumm-add-btn56 {
+    padding: 7px 19px;
+    background: #29adb3;
+    color: #fff;
+    float:left;
+    border-radius: 6px;
+}
+
+a.toosumm-view-btn56 {
+    padding: 7px 16px;
+    background: #89c63d;
+    color: #fff;
+    float: right;
+    border-radius: 6px;
+}
+section.content-header {
+    float: right !important;
+}
+
+ .scrollTop {
+  position: fixed;
+  right: 1%;
+  bottom: 10px;
+  background-color: #18659d;
+  padding: 12px;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.scrollTop a {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* client page */
+
+.client__badge-inner{
+    width: 100%;
+    height: 0;
+    padding-bottom: 145%;
+}
+.client__badge-top{
+    width: 100%;
+    height: 0;
+    padding-bottom: 55%;
+    position: relative;
+}
+.client__badge-part-inner{
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #e1e1e1;
+    border-bottom-width: 0;
+    background-color: #e5f7fd;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.toosumm-client__photo-cont{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+.toosumm_client__photo{
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center; 
+}
+.toosumm-client__photo-no-img-wrp{
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    / display: inline-block; /
+    width: 110px;
+    height: auto;
+    margin:10px auto;
+}
+.client__name{
+    font-size: 15px;
+    color: #0489bb;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    line-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.client__dropdown{
+        position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    border: 2px solid #0489bb;
+}
+.client__dropdown-button {
+    / margin-top: -6px; /
+    / line-height: 0px; /
+    text-align: center;
+    position: relative;
+    display: block;
+    line-height: 8px;
+    padding-top: 1px;
+}
+.client__dropdown-button i{color:#000;  line-height: 0;}
+
+
+/ team profile page css /
+.custom-radio {
+    padding: 6px;
+}
+
+.custom-radio input[type=radio] {    
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 7px;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+.creative-directors {
+    background: #b9e5f6;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+.creative-directors h1{float:left; color:#0489bb; padding-top: 10px; padding-bottom: 10px;}
+.creative-directors p{float:left; padding-top: 10px; padding-bottom: 10px; }
+
+
+.team-profile1{width:100%; height:auto;}
+.team-profile1 .team-profile-pic {
+    width: 86px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.team-profile1 h4 {
+    text-align: center;
+}
+.team-attach-portfolio {
+    width: 100%;
+    background: #54c9b9;
+    min-height: 50px;
+    padding-top:15px;
+    color:#fff;
+}
+
+.team-attach-link {
+    background: #14aee8;
+     min-height: 50px;
+     width: 100%;
+     padding-top:15px;
+     color:#fff;
+}
+
+.team-personal-webpage {
+    background: #0489bb;
+     min-height: 50px;
+     width: 100%;
+     padding-top:15px;
+     color:#fff;
+}
+
+.team-profile-grid {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    overflow: hidden;
+    
+}
+    .sidebar-marginbottom{
+        margin-bottom: 40px;
+    }
+span.team-icon45 {
+    margin: 10px;
+    
+}
+.team-profile-color{color:#fff;}
+.team-profile-color:hover{color:#fff;}
+
+.toosum-language-rating label input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px !important;
+}
+
+h1.profile-heading1 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #0489bb;
+    font-size: 31px;
+    margin-top: 10px;
+}
+
+ul.profile-details {
+    list-style: none;
+    margin: 0px auto;
+    display: table;
+    padding-left: 0px;
+}
+
+ul.profile-details li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 8px 33px;
+}
+
+.profile-details li a {
+
+    color: #575c63;
+    font-weight: 600;
+
+}
+ul.profile-details li.active a {
+    color: #0e475c;
+}
+
+.gender-section input {
+    width: auto;
+    height: auto;
+}
+.gender-section {
+    display: inline-block;
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+ul.profile-details li.first {
+    border-radius: 16px 0px 0px 16px;
+}
+
+ul.profile-details li.second {
+    border-radius: 0px 16px 16px 0px;
+}
+
+
+.edit_profile-margin .cke_1 .cke_inner .cke_contents {
+    height: 90px !important;
+}
+
+
+a.view-my-profile {    
+    position: absolute;
+    right: 16px;
+    text-decoration:none;
+    top: 55px;
+    font-size: 18px;
+    color: #196bad;
+}
+a.view-my-profile:hover{text-decoration:none;}
+
+ul.profile-details li.active {
+    background: #b9e5f6;
+}
+.basic-profile75 {
+    margin-bottom: 20px;
+}
+.basic-profile75 input[type=text] {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    text-indent:5px;
+}
+
+.basic-profile75 select {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.basic-profile75 label {
+    color: #1a6bac;
+    font-weight: 100;
+    padding-top: 5px;
+}
+
+.team-firstname {
+    width: 100%;
+    background: #ecedef;
+    min-height: 50px;
+    padding-top: 15px;
+    color: #fff;
+    text-align:center;
+}
+
+.team-lastname {
+    width: 100%;
+    background: #e1e1e1;
+    min-height: 50px;
+    padding-top: 15px;
+    color: #fff;
+    text-align:center;
+}
+
+.team-name-color {
+    color: #000;
+    text-align:center;
+}
+
+input.change-profile-picture {
+    position: absolute;
+    height: 70px;
+    margin-top: -45px;
+    z-index:999999;
+    opacity:0;
+}
+
+img.camera-icon {
+    position: absolute;
+    width: 20px;
+    right: 37%;
+    margin-top: -44px;
+}
+
+.border1px {
+    border: 1px solid #54c9b9;
+}
+
+.team-profile1 p {
+    text-align: center;
+}
+.custom-radio {
+
+    padding: 6px;
+
+}
+
+.show-date1 {
+    width: 100%;
+    padding: 9px 3px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.edit-radio-btn{
+    display: inline-block;
+    float: left;
+}
+.margin45{margin-top: 10px; margin-bottom: 20px;}
+
+.margin45 h6{width:100%; float: left; padding-bottom: 10px;}
+
+.edit-radio-btn input {
+    float: left;
+    display: inline-block;
+    width:30px;
+    height:auto;
+}
+
+.basic-profile79 {
+    margin-bottom: 45px;
+}
+.linkdin-margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.toosum-employment-history tbody tr th {
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 100;
+    color: #1a6bac;
+    border: 1px solid #1a6bac;
+    text-align: center;
+}
+
+.toosumm-team-info-details p {
+   display: inline-block;
+   width: calc(100% - 51%);
+   font-size: 14px;
+}
+.edit_profile-margin label {
+    margin-bottom: 10px;
+}
+.toosumm-edit-section55 {
+    padding: 20px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+div.dataTables_paginate ul.pagination {
+    float: right;
+}
+.form-group label {
+    margin-bottom: 10px;
+}
+.certificateste-edit{width: 100%; height: auto; padding: 20px; border:1px solid #eee;}
+.submit56 {
+    margin-left: 15px;
+}
+
+/ workroom css /
+
+.toosumm-work-room-section{
+    width:100%;
+    height:auto;
+    position:relative;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.toosumm-project-image{
+    
+}
+
+.toosumm_project-image-bottom-panel1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 40px;
+    background: rgba(0,0,0,.6);
+}
+
+.toosumm-project-image-bottom-panel{
+    color: #fff;
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    float:left;
+}
+
+.toosumm-project-card-head {
+    position: relative;
+}
+
+.toosumm-project-image-bottom-panel-link{
+    width:100%; height:100%; color:#fff; vertical-align:middle;
+}
+.toosumm-project-image-bottom-panel-link:hover {color:#fff;}
+.toosumm-project-image-panel-icon67 {
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.margin-left{margin-left:10px; line-height:3;}
+.margin-right{margin-right:10px; line-height:3;}
+.toosumm_project-card-body{padding:15px;}
+.toosumm_project-name-con{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 0;
+}
+.toosum_project_name{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 40px;
+    width: calc(100% - 100px);
+    font-size: 0;
+    overflow: hidden;
+}
+
+.toosum_project_controle{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 0;
+    width: 100px;
+    text-align: right;
+}
+.project-name_text{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ul.toosumm_project-controle-ul {
+    padding: 0px;
+}
+
+ul.toosumm_project-controle-ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+ul.toosumm_project-controle-ul li a {
+    font-size: 20px;
+}
+
+.toosumm-project-details6 {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.toosumm-footer-des{
+    padding: 10px 15px;
+    background-color: #e4e4e4;
+    font-size: 0;
+    min-height: 50px;
+}
+
+.project-status23 {
+    font-size: 20px;
+    float:left;
+}
+
+.project-footer-info5 {
+    font-size: 12px;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 2.5;
+}
+.toosumm-start-date input{width:100%; height:35px; text-indent:7px;}
+
+.toosumm-calender-icon56 {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 22px;
+}
+/ workroom edit css /
+.toosumm-sticky-panel {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 50px;
+}
+.toosumm-sticky-panel{position:relative; min-height:50px;}
+.toosumm-sticky-inner_panel{position: absolute;
+    /*min-height: 50px;*/
+
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    background: #f5f5f5;
+    z-index: 50;
+    }
+    
+    .task-tab{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    }
+    .drop-scroll-cont{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 75px;
+    height: 30px;
+    float:right;
+    }
+    
+    .task-taba{
+        position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fff;
+    / font-size: 0; /
+    vertical-align: top;
+    text-align: center;
+    padding: 5px 10px;
+    min-width: 140px;
+    border: 1px solid #e1e1e1;
+    border-right-width: 0;
+    transition: background .3s;
+    }
+    
+    .drop-scroll-inner1{
+    position: relative;
+    width: 100%;
+    min-height: 30px;
+    }
+    
+    .refresh-button56{
+    background-color: #fff;
+    box-shadow: 0 0 4px -1px rgba(44,53,66,.3);
+    color: #575c63!important;
+    padding: 5px;
+    font-size: 0;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    float:left;
+    }
+    
+    .refresh-button56 span{
+        display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    }
+    
+    button.refresh-button56 span i {
+    color: #555;
+    font-size: 15px;
+}
+
+.toosumm-drop-btn56{
+        position: relative;
+    width: 44px;
+    height: 30px;
+    background-color: #b9e5f6;
+    cursor: pointer;
+    border-radius: 20px;
+    float:left;
+}
+
+ul.toosumm-dropdown89 {
+    position: absolute;
+    right: 0;
+    width: 215px;
+    padding-left: 0px;
+    display:none;
+    border: 1px solid #e1e1e1;
+    background:#fff;
+    margin-top:6px;
+}
+
+a.task-taba span {
+    display: inline-block;
+}
+
+a.task-taba span img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+ul.toosumm-drop-down90 li a span {
+    display: block;
+    padding: 2px;
+    background: #0e475c;
+    vertical-align: middle;
+    width: 50%;
+    margin: 3px auto;
+}
+
+ul.toosumm-dropdown89 li a span {
+    display: inline-block;
+    background: none;
+}
+
+ul.toosumm-dropdown89 li a span {
+    display: inline-block;
+    background: none;
+    float: left;
+    width: auto;
+}
+
+ul.toosumm-dropdown89 li a span img {
+    width:18px;
+    margin-right: 8px;
+}
+
+ul.toosumm-drop-down90 {
+    padding-left: 0px;
+}
+
+ul.toosumm-drop-down90 li {
+    padding-bottom: 7px;
+    list-style:none;
+    padding-top:7px;
+}
+
+ul.toosumm-drop-down90 li:hover ul.toosumm-dropdown89{display:block;}
+
+ul.toosumm-dropdown89 li{display:block; border-bottom: 1px solid #e1e1e1; padding-top:5px; padding-bottom:5px; padding-left:7px; float:left; width:100%; padding-right:7px; list-style:none;}
+
+ul.toosumm-dropdown89 li:hover{background:#f5f5f5;}
+
+/ #575c63 /
+
+.toosumm_task-main-image-cont{
+    float: left;
+    width: 318px;
+    position: relative;
+    text-align: center;
+}
+
+.toosumm_task-main-text{
+    padding: 0 0 0 20px;
+    width: calc(100% - 327px);
+    float: right;
+    position: relative;
+}
+
+.toosum-task-main_field{
+    position: relative;
+    min-height: 212px;
+    padding-top: 15px;
+}
+
+.toosumm-task-main-text-field{
+    margin-bottom: 5px;
+}
+
+.toosumm-task-main-text-field h3{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.toosumm-task-description{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.toosumm-task-description-inner{
+    position: absolute;
+    overflow: hidden;
+    padding: 5px;
+    z-index: 2;
+    left: -5px;
+    top: 30px;
+    width: 100%;
+    height: 50px;
+    background: #ecedef;
+    border-radius: 4px;
+    border: 1px solid #ecedef;
+    transition: border .3s,height .3s;
+    cursor: pointer;
+}
+
+.toosumm-task-description:hover .toosumm-task-description-inner{
+    transition-delay: .45s;
+    overflow-y: auto;
+    height: calc(100% - 30px);
+    border-color: #8ed4ef;
+}
+.toosumm_task-description-line{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.toosumm-task-main-image{
+    height: 212px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+span.toosumm-task-main-text-def-label {
+    font-weight: 600;
+}
+.toosumm-task-main-text-field span {
+    font-size: 15px;
+}
+
+select.toosumm-task-main-text-status {
+    background: #ecedef;
+    border: none;
+}
+
+.toosumm-task-main-client-cont1{display:inline-block; width:75%;}
+form.toosumm-task-main-client-cont .chosen-container .chosen-single {
+    border: none;
+    box-shadow: none;
+    background: #ecedef;
+}
+form.toosumm-task-main-client-cont .chosen-container {
+    width: 100% !important;
+}
+
+form.toosumm-task-main-client-cont .chosen-container .chosen-single div {
+    display: none;
+}
+
+.toosumm_task-main-user-heading{
+    margin-bottom: 10px;
+    padding-top:15px;
+}
+
+.toosumm-task-user{
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width:auto;
+    /*text-align: center;*/
+}
+
+.toosumm-task-user .task-image1 {
+    float:left ;
+}
+.toosumm-task-user .task-image1 li {
+    display: inline-block;
+}
+.border-btn {
+    border: 1px solid #0e475c !important;
+    border-radius: 0px !important;
+}
+
+.toosumm-icont{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    line-height: 0;
+    margin: 0 2px;
+    border: 1px solid #c0c4c8;
+    overflow:hidden;
+    border-radius:50%;
+}
+.toosumm-i-counter{
+    border: 1px solid #0489bb;
+    overflow: hidden;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    background: #0489bb;
+    cursor: default;
+    height:100%;
+     line-height:1.2;
+}
+
+.toosumm-task-main-finance{
+    padding-top:30px;
+}
+
+.toosumm-task-inline-wrap{
+    display: inline-block;
+}
+.task-main-text-def-label{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-weight: 600;
+    min-height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right:20px;
+}
+
+.task__main-text-def{
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 100px;
+    position: relative;
+    min-height: 20px;
+}
+
+.toosumm_task-popover-link{
+    color: #0489bb;
+    padding-bottom: 1px;
+    border: none;
+    border-bottom: 1px dashed #0489bb;
+    background: transparent;
+    outline: none!important;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 13px;
+}
+
+.toosumm_task-main-text1{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 20px);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.toosumm_task-main-icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.toosumm-date-picker98 {
+    background: #ecedef;
+    border: none;
+    font-size:15px;
+    cursor:pointer;
+}
+.toosumm-task-main-image12{height:100%;}
+.toosumm-task-main-image12 img{width:100%; height:100%;}
+.toosumm_task-image-control{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 65px;
+    padding: 10px;
+   /  font-size: 0; /
+    text-align: left;
+    border-radius: 5px 0 5px 0;
+    background-color: hsla(0,0%,100%,.7);
+}
+.toosumm-task-image-controls{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size:18px;
+}
+
+.inline-wrap{
+    
+}
+
+.toosumm-task-main-finance-margin-bottom {
+    margin-bottom: 5px;
+}
+.toosumm_task-popover-link a {
+    color: #0489bb;
+    font-weight:600;
+}
+.toosumm_task-main-image-cont {
+    float: left;
+    width: 318px;
+    position: relative;
+    text-align: center;
+}
+
+.toosumm-team-manage-rate span a {
+    font-size: 12px;
+}
+
+.toosum-margin-right1 li .active {
+    background: #2aafb3 !important;
+    border-bottom: 2px solid #186cae;
+    color: #fff !important;
+}
+
+#find_education .edit-profile-submit {
+    margin-top: 33px;
+}
+
+.edit_profile-margin .update-education-btn {
+    margin-top: 27px;
+}
+.update-date input {
+    width: calc(100% - 0%);
+    height: 35px;
+}
+/* client css */
+.table-client56 table tbody tr td {
+    border: 1px solid #cecbcbeb;
+    padding:5px;
+}
+.table-client56 table {
+    width:100%;
+}
+.table-contact{margin-bottom:0px;}
+
+.toosumm-team-user-text-box{width:}
+img.team-icon-image {
+    width: 35px;
+    margin-right: 5px;
+}
+form#form1 {
+    margin: 40px 0px;
+}
+table.dataTable thead .sorting {
+
+    font-size: 13px;
+
+}
+
+table.dataTable thead .sorting_asc:after {
+    content: "\e155";
+     display: none;
+}
+
+table.dataTable thead .sorting:after {
+    opacity: 0.2;
+    content: "\e150";
+    display: none;
+}
+.alert-box {
+    padding: 35px !important;
+}
+
+.toosumm-alert {
+    position: absolute;
+    margin-top: -19px;
+    z-index: 999;
+}
+
+/*/ time sheet css /*/
+.time-sheet_table{width:100%; margin-top: 25px; margin-bottom:35px;}
+.time-sheet_table tr td{padding:1px;}
+img.team-icon67 {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.time-sheet-border1{border-right:1px solid #cacaca; border-bottom:1px solid #cacaca;}
+.time-sheet-inner-table45{width:100%;}
+.time-sheet-border2{border-bottom:1px solid #cacaca;}
+.time-sheet-background {background: #8080804a; padding-top: 7px !important; padding-bottom: 7px !important;}
+.time-sheet_border-blue{border-right:1px solid #2badb4; border-bottom:1px solid #2badb4;}
+thead.time-sheet-table-head {
+    position: relative;
+    width: 100%;
+    background: #cdcdcf;
+}
+.time-sheet-tr-background td {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+.time-sheet-tr-background{background:#828991; color: #fff; font-size: 11px;}
+.time-sheet-tr-background h4{color: #fff; font-size:15px;}
+.time-sheet-tr-background td{padding: 5px !important;}
+.time-sheet-inner-table45 h4 { font-size: 13px; padding-top: 7px; padding-bottom: 7px;}
+.time-sheet-inner-table45 p { font-size: 12px;}
+.team-sheet-drop-down select{width: 100%; height: 35px;}

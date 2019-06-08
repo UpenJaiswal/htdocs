@@ -1,0 +1,90 @@
+.site-header-main {
+  margin: -80px;
+  margin-right: 120px;
+  margin-top: -30px;
+}
+
+#masthead.site-header {
+  opacity: 1;
+  margin: -33px;
+  margin-top: -82px;
+}
+
+.entry-title {
+  margin: -50px;
+  padding: 0px;
+  display: none;
+}
+
+.custom-logo {
+  margin-left: 150px;
+}
+
+#mycustom > li {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+/* Archi Industry version */
+
+.info-box i {
+  font-size: 40px;
+  position: absolute;
+}
+
+.info-box .info-box_text {
+  padding-left: 60px;
+}
+
+.info-box .info-box_title {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 16px;
+  color: #fff;
+  margin-top: 8px;
+}
+
+#info-box {
+  height: 90px;
+  position: absolute;
+  z-index: 500;
+  width: 100%;
+  background: rgba(0,0,0,.3);
+}
+
+@media only screen and (max-width : 767px) {
+  #info-box {
+    background: #fff;
+    height: auto;
+    position: static;
+    margin-top: 0px;
+  }
+
+  .info-box .info-box_title,
+  .info-box .info-box_text {
+    font-family: "Open Sans";
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #707070;
+    font-size: 14px;
+    padding: 20px 0px;
+  }
+  }
+
+ 
+
+#color {
+  color: #F86E4E;
+}
+
+.hero {
+  line-height: 48px;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Montserrat";
+}

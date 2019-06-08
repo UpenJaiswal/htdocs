@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	
+	
+	<!-- Custom CSS -->
+	<link href="css/layout.css" type="text/css" rel="stylesheet"/>
+	<link href="css/popup.css" type="text/css" rel="stylesheet"/>
+	
+	<!-- datatable CSS -->
+	<link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet"/>
+	
+	<!-- Chosen CSS -->
+	<link href="https://harvesthq.github.io/chosen/chosen.css" type="text/css" rel="stylesheet"/>
+	
+	
+	<!-- Calender CSS -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	
+	 <!-- Font awesome CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 
+	 <!-- Font CSS -->	 
+	 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+	 
+     
+
+    <title>Toosum </title>
+	
+	
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="/" class="navbar-brand"><img src="images/logo.png" class="header-logo"/> </a>
+		</div>
+		<div id="navbar-menu" class="collapse navbar-collapse toosum-header-menu1">
+			<ul class="nav navbar-nav toosum-margin-right1">				
+				<li><a href="#"><img src="images/group.png" class="header-menu-icon"/>Team Room</a></li>
+				<li><a href="#"><img src="images/clock-circular-outline.png" class="header-menu-icon"/>Timesheet</a></li>
+				<li><a href="#"><img src="images/meeting-room.png" class="header-menu-icon"/>Workroom</a></li>
+				<li><a href="#"><img src="images/chat.png" class="header-menu-icon"/>Collaboration</a></li>
+
+				
+				<li><a href="#"><img src="images/customer.png" class="header-menu-icon"/>Clients</a></li>
+				<li><a href="#"><img src="images/coin.png" class="header-menu-icon"/>Invoices</a></li>
+				<li><a href="#"><img src="images/right-menu-bars.png" class="header-menu-icon"/>Dashboard</a></li>			
+
+				
+				  
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<!-- <li><a href="/?signout" id="signout"><span class="glyphicon glyphicon-lock"></span> Sign Out</a></li> -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/icon.jpg" alt="" class="icon-toggle"/> <b class="caret"></b></a>
+					<ul class="dropdown-menu profile-edit">
+					    <li>
+							<ul class="toosum-profile-edit">
+								<li><img src="images/icon.jpg" class="toosum-profile-edit2"/></li>
+								<li>
+								<span>Abcdefghijkl</span>
+								<p>kghkkdhbdkkd</p>
+								<a href="#">Edit Profile</a>
+								</li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Account Setup</a></li>
+							<li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i> &nbsp; Account Billing</a></li>
+							<li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> &nbsp; Security Setting</a></li>
+							<li><a href="#"><i class="fa fa-archive" aria-hidden="true"></i> &nbsp; Account Storage</a></li>
+							<li><a href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;Download Timer</a></li>
+							<li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> &nbsp; Change Password</a></li>
+							<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; Setup Notifications</a></li>
+							<li><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> &nbsp; Help</a></li>
+							<li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> &nbsp; Logout</a></li>						
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+  
+    
+	
+	<div class="toosum-section">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-md-12">
+				    <div class="toosumm-sticky-panel">
+					    <div class="toosumm-sticky-inner_panel">
+						    <div class="task-tab">
+							     <a href="#" class="task-taba" style="border-radius: 15px 0 0 15px; background-color: #b9e5f6; "><span><img src="images/checklist.png"/></span><span>Tasks</span></a>
+								 <a href="#" class="task-taba"><span><img src="images/gantt-chart.png"/></span><span>Gantt Chart</span></a>
+								 <a href="#" class="task-taba"><span><img src="images/lily.png"/></span><span>Activity Stream</span></a>
+								 <a href="#" class="task-taba"><span><img src="images/checklist.png"/></span><span>Checklists</span></a>
+								 <a href="#" class="task-taba"><span><img src="images/file.png"/></span><span>Files</span></a>
+								 <a href="#" class="task-taba"><span><img src="images/recurring-task.png"/></span><span>Recurring Tasks</span></a>
+								 <a href="#" class="task-taba" style="border-radius: 0 15px 15px 0;"><span><img src="images/comments.png"/></span><span>Comments</span></a>
+							</div>
+							<div class="drop-scroll-cont">
+							    <div class="drop-scroll-inner1">								
+								        
+								   <button class="refresh-button56"><span><i class="fa fa-refresh" aria-hidden="true"></i></span></button>
+								   
+								   <div class="toosumm-drop-btn56">
+								        <ul class="toosumm-drop-down90">						 
+											<li>
+												<a href="#" class="">
+												    <span></span>
+													<span></span>
+												</a>
+												<ul class="toosumm-dropdown89">							
+													<li><a href="#"><span><img src="images/plus.png"/></span> <span>Add New Task</span> </a></li>
+													
+													<li><a href="#"><span><img src="images/recurring-task.png"/></span><span> Add New Recurring Task</span> </a></li>
+													
+													<li><a href="#"><span><img src="images/save-as.png"/></span><span> Save as Template</span></a></li>
+													
+													<li><a href="#"><span><img src="images/copy-content.png"/></span><span> Copy to new Project </span></a></li>
+													
+													<li><a href="#"><span><img src="images/archive.png"/></span><span> Archive this Project </span> </a></li>
+													
+													<li><a href="#"><span><img src="images/printer.png"/></span><span> Export and Print </span> </a></li>
+													
+													<li><a href="#"><span><img src="images/share.png"/></span><span>  Share this Project </span> </a></li>
+													
+													<li><a href="#"><span><img src="images/plus.png"/></span><span>  Reassign Tasks </span> </a></li>
+													<li><a href="#"><span><img src="images/rubbish-bin.png"/></span><span>  Delete this Project </span> </a></li>
+													
+												</ul>
+											</li>
+										</ul>   
+								   </div>
+								</div>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container" id="myDIV">			
+			<div class="row  toosumm-team-filter78">
+			    <div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="Client" name="tags[]" multiple class="chosen-select">							
+							<option value="">ACME LLC </option>
+							<option value="">Internal</option>
+							<option value="">SmartCode Tech.</option>
+							<option value="">Vibrant Communication </option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="Status" name="tags[]" multiple class="chosen-select">										
+							
+							<option value="">Pending</option>
+							<option value="">Inprocess</option>
+							<option value="">Completed</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+					    <div class="toosumm-start-date">
+						  <input type="text" placeholder="Start Date" class="datepick"/>
+						</div>
+						<div class="toosumm-calender-icon56">
+						    <i class="fa fa-calendar" aria-hidden="true"></i>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+					    <div class="toosumm-start-date">
+						  <input type="text" placeholder="Due Date" class="datepick"/>
+						</div>
+						<div class="toosumm-calender-icon56">
+						    <i class="fa fa-calendar" aria-hidden="true"></i>
+						</div>
+						
+					</div>
+				</div>
+				
+												
+				
+			</div>
+			<div class="row toosum-search-section12">
+				<div class="col-md-9">
+					<div class="toosumm-search-div">
+						<input type="text" name="search"/>
+						<div class="toosumm-search-icon56">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</div>							
+					</div>					    				
+				</div>
+				
+				<div class="col-md-3">
+			        <div class="toosumm-clearall-btn56">
+					    <input type="submit" value="Clear All" />
+					</div>
+				</div>
+			
+			</div>
+			
+			</div>
+			
+			<div class="container">		
+			
+		    <div class="row">
+			    <div class="col-md-12">
+				    <div class="toosumm_task-main-image-cont">
+					    <div class="toosumm-task-main-image">
+						    <div class="toosumm_task-image-control">
+							    <div class="toosumm-task-image-controls">
+								    <i class="fa fa-refresh" aria-hidden="true"></i>
+								</div>
+								<div class="toosumm-task-image-controls">
+								    <i class="fa fa-trash" aria-hidden="true"></i>
+								</div>
+							</div>
+						    <div class="toosumm-task-main-image12">
+							    <img src="images/work-room.png"/>
+							</div>
+						</div>
+						<div class="inline-wrap">
+						
+						</div>
+					</div>				
+					<div class="toosumm_task-main-text">
+					    <div class="row">
+						    <div class="col-md-6">
+							    <div class="toosum-task-main_field">
+								    <div class="toosumm-task-main-text-field">
+									    <h3>YUM Website Launch</h3>
+									</div>
+									<div class="toosumm-task-main-text-field">
+									    <div class="toosumm-task-description">
+										    <div class="toosumm-task-description-inner">
+											     <span class="toosumm_task-description-line">Promotion and debut of the new Young Urban Marketers website.</span>
+											</div>
+										</div>
+									</div>
+									<div class="toosumm-task-main-text-field">
+									    <span class="toosumm-task-main-text-def-label">Start Date:</span>
+										<span><input type="text" placeholder="11/06/2018" class="datepick toosumm-date-picker98"/></span>
+									</div>
+									
+									<div class="toosumm-task-main-text-field">
+									    <span class="toosumm-task-main-text-def-label">Due Date:</span>
+										<span><input type="text" placeholder="11/06/2018" class="datepick toosumm-date-picker98"/></span>
+									</div>
+									
+									<div class="toosumm-task-main-text-field">
+									    <span class="toosumm-task-main-text-def-label">Status:</span>
+										<span>
+										    
+										</span>
+									</div>
+									
+									<div class="toosumm-task-main-text-field">
+									    <span class="toosumm-task-main-text-def-label">Priority:</span>
+										<span>
+										    
+										</span>
+									</div>
+									
+									<div class="toosumm-task-main-text-field">
+									    <span class="toosumm-task-main-text-def-label">Client:</span>
+										<span>
+										    <div class="toosumm-task-main-client-cont1">
+												<div id="output"></div>
+												<form method="get" class="toosumm-task-main-client-cont">
+												  <select data-placeholder="Select Client" name="tags[]" class="chosen-select">						
+													<option value="">Manager</option>
+													<option value="">Administrator</option>
+													<option value="">Contractor</option>
+												  </select>							  
+												</form>
+											</div>
+										</span>
+									</div>
+									
+														
+								</div>
+							</div>
+							<div class="col-md-6">
+							    <div class="row">
+								    <div class="col-md-12">
+									    <div class="toosumm_task-main-user-heading">
+										    <div class="toosumm_task-main-text1">
+											    Project Team
+											</div>
+											
+											<div class="toosumm_task-main-icon">
+											   <i class="fa fa-list" aria-hidden="true"></i>
+											</div>
+										</div>
+										
+										<div class="toosumm-task-user">
+										    <div class="toosumm-icont">
+											     <img src="images/team56.jpg" alt=""/>
+											</div>
+											<div class="toosumm-icont">
+											     <img src="images/team56.jpg" alt=""/>
+											</div>
+											<div class="toosumm-icont">
+											     <img src="images/team56.jpg" alt=""/>
+											</div>
+											<div class="toosumm-icont">
+											     <img src="images/team56.jpg" alt=""/>
+											</div>
+											
+											<div class="toosumm-icont">
+											    <div class="toosumm-i-counter">
+											     3+
+												</div>
+											</div>
+											
+										</div>
+										
+										<div class="toosumm-task-main-finance">
+										    <div class="toosumm-task-main-finance-margin-bottom">
+												<div class="toosumm-task-inline-wrap">
+													<div class="task-main-text-def-label">Total Logged Time:</div>
+													<div class="task__main-text-def">310,7 hrs</div>
+												</div>
+												<div class="toosumm_task-popover-link">
+													<a href="#"><span>Set up a budget</span></a>
+												</div>
+											</div>
+											
+											<div class="toosumm-task-main-finance-margin-bottom">
+												<div class="toosumm-task-inline-wrap">
+													<div class="task-main-text-def-label">Total Logged Time:</div>
+													<div class="task__main-text-def">310,7 hrs</div>
+												</div>
+												<div class="toosumm_task-popover-link">
+													<a href="#"><span>Set up a budget</span></a>
+												</div>
+											</div>
+											
+											<div class="toosumm-task-main-finance-margin-bottom">
+												<div class="toosumm-task-inline-wrap">
+													<div class="task-main-text-def-label">Total Logged Time:</div>
+													<div class="task__main-text-def">310,7 hrs</div>
+												</div>
+												
+											</div>
+											
+											
+										</div>
+										
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>
+				<div class="col-md-12">
+				 <!--  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">       
+<a class="navbar-brand" href="#">DataTable with button to show modal</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+       
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
+      
+
+
+
+        <form id="form1" runat="server">
+
+
+<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th><input type="checkbox"/></th>
+                <th>User</th>
+                <th>Start Date</th>
+                <th>Due Date</th>
+                <th>Assigned, hrs</th>
+                <th>Logged, hrs</th>
+				<th>Status</th>
+				<th>Priority</th>
+				<th>Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"/> sprit </td>
+                <td><img src="images/icon.jpg" class="team-icon-image"/> <img src="images/icon.jpg" class="team-icon-image"/> <img src="images/icon.jpg" class="team-icon-image"/> <img src="images/icon.jpg" class="team-icon-image"/></td>
+                <td>12/04/2018</td>
+				<td>12/05/2018</td>
+                <td class="text-center">8</td>
+                <td></td>
+				<td><button id="btnMyTest001" type="button" class="btn btn-success" data-toggle="modal" data-target="#my_modal" data-age="61">InProgress</button></td>
+                <td class="text-center">Regular</td>
+				<td class="text-center">1</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"/> Code migration and merge </td>
+                <td><img src="images/icon.jpg" class="team-icon-image"/> </td>
+				<td>12/04/2018</td>
+				<td>12/05/2018</td>
+                <td class="text-center">8</td>
+                <td></td>
+				<td><button id="btnMyTest001" type="button" class="btn btn-success" data-toggle="modal" data-target="#my_modal" data-age="61">InProgress</button></td>
+                <td class="text-center">Regular</td>
+				<td class="text-center">1</td>
+            </tr>
+           
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th>User</th>
+                <th>Start Date</th>
+                <th>Due Date</th>
+                <th>Assigned, hrs</th>
+                <th>Logged, hrs</th>
+				<th>Status</th>
+				<th>Priority</th>
+				<th>Level</th>
+            </tr>
+        </tfoot>
+    </table>
+          <!-- <div id="testola">
+          <p>Nothing to see below here!</p>
+            </div> -->
+          
+         
+          
+    </form>
+
+<div class="modal fade" id="my_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Sample Modal</h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="form-group">
+                    
+                    <!--<input type="text" id="username" placeholder="User Name" class="form-control"/>-->
+                    <!-- <div id="confirmdetails">Confirmation details go here...</div>-->
+                    <label for="age">Age</label>
+                    <input type="text" id="age" class="form-control"/>
+
+                    
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <!-- onclick="cancelRecord()" -->
+                <button type="button" class="btn btn-default" data-dismiss="modal" >OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+				
+				</div>				
+				
+			</div>						
+			
+		</div>
+	</div>
+	
+	<footer class="toosum-footer">
+	    <div class="container">
+		    <div class="row toosum-footer-margin">
+			    <div class="col-md-6">
+				    <ul class="ts-footer-menu-list">
+					    <li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+					<p class="toosum-copyright">©2008–2018 <a href="#">Ranks Digital Media</a>,All Rights Reserved</p>
+					
+				</div>
+				
+				<div class="col-md-6">
+				    <ul class="ts-footer-social-icons">
+					    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					</ul>				 
+				</div>
+			</div>
+		</div>	
+	</footer>
+	
+	<!-- Jquery min -->
+	
+   
+  
+  <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+  
+  
+  
+    <!-- Bootstrap JS -->
+	
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<!-- <script src="js/jquery-3.3.1.slim.min.js" type="text/javascript"></script> -->
+	<script src="js/popper.min.js" type="text/javascript"></script>
+	
+	<!-- datatable JS -->
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    $('#example').DataTable();
+} );
+
+// Get value from data table
+ $(document).on("click", "#btnMyTest001", function (e) {
+     $('#my_modal #age').attr("value", $(this).attr("data-age"));
+ })
+	</script>
+	<!-- Custom JS -->
+	<script src="js/layout.js" type="text/javascript"></script>
+	<script src="js/select.js" type="text/javascript">
+	</script>
+	
+	<!-- Chosen JS -->
+    <script src="https://harvesthq.github.io/chosen/chosen.jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	document.getElementById('output').innerHTML = location.search;
+$(".chosen-select").chosen();
+	</script>
+	
+	<!-- Calender JS -->
+	  <script
+	  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+	  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+	  crossorigin="anonymous"></script>
+	
+	
+
+	<script type="text/javascript">	
+		$( document ).ready(function() {
+        $("#filter-tooglebtn").click(function() {
+            $("#myDIV").toggle();
+        });
+    });
+	</script>
+	
+	<script>
+	   function toosumm_Show(id)
+	   {	   
+			document.getElementById(id).style.display='block';
+			document.getElementById('fade').style.display='block';
+	   }
+	   function toosumm_Close(id)
+	   {	
+			document.getElementById(id).style.display='none';
+			document.getElementById('fade').style.display='none'
+	   }
+	   </script>
+	   
+	   
+  
+	  
+	  
+	
+	<!-- smooth scrolling JS -->
+	<!-- <script src="js/smooth-scrolling.js" type="text/javascript"></script> -->
+	
+	
+  </body>
+</html>

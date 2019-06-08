@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	
+	
+	<!-- Custom CSS -->
+	<link href="css/layout.css" type="text/css" rel="stylesheet"/>
+	<link href="css/popup.css" type="text/css" rel="stylesheet"/>
+	
+	<!-- Chosen CSS -->
+	<link href="https://harvesthq.github.io/chosen/chosen.css" type="text/css" rel="stylesheet"/>
+	
+	
+	<!-- Calender CSS -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	
+	 <!-- Font awesome CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 
+	 <!-- Font CSS -->	 
+	 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+	 
+     
+
+    <title>Toosum </title>
+	
+	
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="/" class="navbar-brand"><img src="images/logo.png" class="header-logo"/> </a>
+		</div>
+		<div id="navbar-menu" class="collapse navbar-collapse toosum-header-menu1">
+			<ul class="nav navbar-nav toosum-margin-right1">				
+				<li><a href="#"><img src="images/group.png" class="header-menu-icon"/>Team Room</a></li>
+				<li><a href="#"><img src="images/clock-circular-outline.png" class="header-menu-icon"/>Timesheet</a></li>
+				<li><a href="#"><img src="images/meeting-room.png" class="header-menu-icon"/>Workroom</a></li>
+				<li><a href="#"><img src="images/chat.png" class="header-menu-icon"/>Collaboration</a></li>
+
+				
+				<li><a href="#"><img src="images/customer.png" class="header-menu-icon"/>Clients</a></li>
+				<li><a href="#"><img src="images/coin.png" class="header-menu-icon"/>Invoices</a></li>
+				<li><a href="#"><img src="images/right-menu-bars.png" class="header-menu-icon"/>Dashboard</a></li>			
+
+				
+				  
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<!-- <li><a href="/?signout" id="signout"><span class="glyphicon glyphicon-lock"></span> Sign Out</a></li> -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/icon.jpg" alt="" class="icon-toggle"/> <b class="caret"></b></a>
+					<ul class="dropdown-menu profile-edit">
+					    <li>
+							<ul class="toosum-profile-edit">
+								<li><img src="images/icon.jpg" class="toosum-profile-edit2"/></li>
+								<li>
+								<span>Abcdefghijkl</span>
+								<p>kghkkdhbdkkd</p>
+								<a href="#">Edit Profile</a>
+								</li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Account Setup</a></li>
+							<li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i> &nbsp; Account Billing</a></li>
+							<li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> &nbsp; Security Setting</a></li>
+							<li><a href="#"><i class="fa fa-archive" aria-hidden="true"></i> &nbsp; Account Storage</a></li>
+							<li><a href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;Download Timer</a></li>
+							<li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> &nbsp; Change Password</a></li>
+							<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; Setup Notifications</a></li>
+							<li><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> &nbsp; Help</a></li>
+							<li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> &nbsp; Logout</a></li>						
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+  
+    
+	
+	<div class="toosum-section">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-md-2">
+				    <div class="toosumm-team-filter">
+					    <a onclick="mysearch-Function()" id="filter-tooglebtn" class="toosumm-filter-toggle-btn">
+						    <span class="toosumm-team-filter-icon"><img src="images/filter-results-button.png"/></span>
+							<span>Filter</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-10 toosumm-team-filter2">
+				    <div class="toosumm-team-cloud-filter-icon">
+					    <a href="#" class="globe-icon"><i class="fa fa-globe" aria-hidden="true"></i></a>
+					</div>
+					
+					<div class="toosumm-team-cloud-filter-icon">
+					    <span>Organize By:</span>
+					</div>
+					
+					<div class="toosumm-team-cloud-filter-icon">
+					    <a href="#"> Recent Activity </a>
+					</div>
+					
+					<div class="toosumm-team-cloud-filter-icon">
+					    <a href="#">  Name </a>
+					</div>
+					
+					<div class="toosumm-team-cloud-filter-icon">
+					    <a href="#"> Registration Date </a>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="container" id="myDIV">			
+			<div class="row  toosumm-team-filter78">
+			    <div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Specialties" name="tags[]" multiple class="chosen-select">										
+							<option style="display:none;">All Specialties </option>
+							<option value="">Graphics Design & Multimedia </option>
+							<option value="">Writing & Translation</option>
+							<option value="">Social Media & Online Marketing</option>
+							<option value="">Web Design & Programming </option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Area of Expertise" name="tags[]" multiple class="chosen-select">										
+							<option style="display:none;">All Area of Expertise</option>
+							<option value="">Graphics Design</option>
+							<option value="">Illustrator</option>
+							<option value="">3D Modelling & CAD Artist</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Skills" name="tags[]" multiple class="chosen-select">										
+							<!-- <option style="display:none;">All Skills</option> -->
+							<option value="">3D Modelling</option>
+							<option value="">Adobe Acrobat</option>
+							<option value="">Adobe After Effects</option>
+							<option value="">Adobe Fireworks</option>
+							<option value="">Adobe Illustrators</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All English Proficiency Levels" name="tags[]" multiple class="chosen-select">							
+							<option value="">I don't speak English</option>
+							<option value="">Basic</option>
+							<option value="">Conversational</option>
+							<option value="">Fluent</option>
+							<option value="">Native</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Languages" name="tags[]" multiple class="chosen-select">							
+							<option value="">Italian</option>
+							<option value="">Spanish</option>
+							<option value="">Russian</option>
+							<option value="">French</option>
+							<option value="">Portuguese</option>
+							<option value="">Arabic</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Industries" name="tags[]" multiple class="chosen-select">							
+							<option value="">Agriculture</option>
+							<option value="">Accounting</option>
+							<option value="">Advertising</option>
+							<option value="">Automotive</option>
+							<option value="">Chemical</option>
+							<option value="">Computer</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Experience" name="tags[]" multiple class="chosen-select">							
+							<option value="">Less than 3 Years</option>
+							<option value="">From 3 to 5 Years</option>
+							<option value="">From 5 to 8 Years</option>
+							<option value="">More than 8 Years</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Countries" name="tags[]" multiple class="chosen-select">							
+							<option value="">Afghanistan</option>
+							<option value="">Albania</option>
+							<option value="">Algeria</option>
+							<option value="">American Samoa</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Rate" name="tags[]" multiple class="chosen-select">							
+							<option value="">$0 - $35</option>
+							<option value="">$35 - $45</option>
+							<option value="">$45 - $70</option>
+							<option value="">$70 - $100</option>
+							<option value="">$100+</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Project/Task" name="tags[]" multiple class="chosen-select">							
+							<option value="">Content Developer</option>
+							<option value="">Editing</option>
+							<option value="">Translation Spanish Version</option>
+							<option value="">Translation English Version</option>
+							<option value="">Translation German Version</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Clients" name="tags[]" multiple class="chosen-select">							
+							<option value="">ACME LLC</option>
+							<option value="">Internal</option>
+							<option value="">SmartCode Tech.</option>
+							<option value="">Vibrant Communication</option>
+							<option value="">JAB Accounting Services Ltd.</option>
+						  </select>							  
+						</form>
+					</div>
+				</div>
+				
+				
+				<div class="col-md-3">
+					<div class="toosumm-team-filter-dropdown">
+						<div id="output"></div>
+						<form method="get" class="toosum-choosen-filter">
+						  <select data-placeholder="All Tags" name="tags[]" multiple class="chosen-select">							
+							<option value="">No Match Found</option>
+							
+						  </select>							  
+						</form>
+					</div>
+				</div>								
+				
+			</div>
+			<div class="row toosum-search-section12">
+				<div class="col-md-9">
+					<div class="toosumm-search-div">
+						<input type="text" name="search"/>
+						<div class="toosumm-search-icon56">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</div>							
+					</div>					    				
+				</div>
+				
+				<div class="col-md-3">
+			        <div class="toosumm-clearall-btn56">
+					    <input type="submit" value="Clear All" />
+					</div>
+				</div>
+			
+			</div>
+			
+			</div>
+			
+			<div class="container">		
+			
+		    <div class="row">
+			    <div class="col-md-3">
+				    <div class="toosumm-team-section">
+					    <div class="toosumm-team-section1">
+						    <div class="toosum-team-name1">
+							    <a href="#" class="toosumm-team-image">
+								    <img src="images/team1.jpg" alt=""/>
+								</a>
+								<a href="#" class="toosumm-team-name4">Young Han Jung</a>
+								<div class="toosumm-team-role-dropdown">
+							        <div id="output"></div>
+									<form method="get" class="toosum-choosen-dropdown">
+									  <select data-placeholder="Filter by treatment" name="tags[]" class="chosen-select">										
+										<option value="">Manager</option>
+										<option value="">Administrator</option>
+										<option value="">Contractor</option>
+									  </select>							  
+									</form>
+							    </div>
+								<div class="toosumm-team-login-hours">
+								    <span class="toosumm-team-local-time toosumm-login-time">Local Time:</span><span class="toosumm-team-local-time toosumm-login-time1">2:22</span>
+								</div>								
+								
+							</div>
+							<div class="toosumm-team-delete-btn">
+							    <a href="#" class="toosumm-delete-btn"><i class="fa fa-trash" aria-hidden="true"></i></a>
+							</div>
+							<div class="toosumm-team-recent-btn">
+							    <a onclick="toosumm_Show('Popup1');" class="toosumm-recent-btn"><i class="fa fa-tasks" aria-hidden="true"></i></a>
+							</div>
+							<div class="toosumm-team-camera-btn">
+							    <a href="#" class="toosumm-camera-btn"><i class="fa fa-camera" aria-hidden="true"></i></a>
+							</div>
+							
+						</div>
+						
+						<div class="toosumm-team-manage-rate">
+						    <span class="toosumm-team-internal-manage-rate"><a href="#">Internal Rate: $23</a></span>
+							<span><a href="#">External Rate: $44</a></span>
+						</div>
+						
+						<div class="toosumm-team-info-details">
+						    <ul class="toosumm-team-info2">
+							   <li><a href="#"><i class="fa fa-commenting-o" aria-hidden="true"></i></a></li>
+							   <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+							   <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+							   <li><a href="#"><i class="fa fa-phone-square" aria-hidden="true"></i></a></li>
+							   <li class="toosumm-info-last-list">France, Paris </li>
+							</ul>
+						</div>
+						
+						<div class="toosumm-team-info-details">
+						    <div class="toosumm-feedback1 toosumm-feedback-ring"> Feedback Ring</div>
+							<div class="toosumm-feedback1 toosumm-feedback-star">
+							<a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+							<a href="#" class="toosumm-feedback-star-last"><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						
+						<div class="toosumm-team-info-details">
+						    <div class="toosumm-feedback1 toosumm-feedback-ring"><strong>Tags</strong></div>
+							<div class="toosumm-feedback1 toosumm-feedback-star">
+							<a href="#"><i class="fa fa-tags" aria-hidden="true"></i></a>
+							
+							</div>
+						</div>
+						
+						
+						<div class="toosumm-team-info-details">
+						    <div class="toosumm-team-recent-activity2">
+							    <a href="#"><i class="fa fa-tasks" aria-hidden="true"></i></a>
+							</div>
+							<div class="toosum-team-task-header">
+							    Currently working on:
+							</div>
+							<div class="toosum-team-user-task">
+							    <span>Client:</span>
+								<span>Internal</span>
+							</div>
+							<div class="toosum-team-user-task">
+							    <span>Project:</span>
+								<a href="#" class="toosumm-team-task-link">e-Newsletter</a>
+							</div>
+							<div class="toosum-team-user-task">
+							    <span>Task:</span>
+								<a href="#" class="toosumm-team-task-link">SEO (ad quality optimization)</a>
+							</div>
+						</div>
+						
+						<div class="toosumm-team-user-activity">
+						    <span class="speed-meter-scale-section"><img src="images/speed-meter.png" class="speed-meter-scale"/></span>
+							<span>Activity 100%</span>
+							<span>8 hours ago</span>
+						</div>
+						
+					</div>
+
+
+					
+					
+				</div>
+				 
+				
+				 
+				
+				 
+			</div>
+			
+			<div id="Popup1" class="white_content1">
+			    <div class="header-toosumm-modal">
+			        Recent Activity 
+			        <div class="header-toosumm-close">
+			            <a onclick="toosumm_Close('Popup1');"><i class="fa fa-times" aria-hidden="true"></i></a>
+					</div>	
+			    </div>
+				
+				<div class="row">
+				    <div class="col-md-12">
+					    <div class="toosumm-team-user-task_user-info">
+						    <a href="#" class="toosumm-team-user-task_user-info1">
+							    <img src="images/user5.jpg"/>
+							</a>
+							<a href="#" class="toosumm-team-user-name1">Judy Maggard</a>
+							<div class="toosumm-team-user-task-profile-position">Contractor in ACME</div>
+						</div>
+						<div class="toosumm-team-user-chart-page">
+						    <div class="toosumm-team-user-activity5">
+							    <div class="toosumm-team-user-calender5">
+								    <input type="text" id="datepicker"/>
+								</div>
+								User activity diagram
+							</div>
+						    <img src="images/user-activity-chart.jpg" class="img-responsive"/>
+						</div>
+						<hr></hr>					
+						
+					</div>
+					
+					<div class="table-responsive table-bordered movie-table">
+						<table class="table movie-table">
+							  <thead>
+							  <tr class= "movie-table-head">
+								  <th>Task Name/Project Name</th>
+								  <th>Users</th>
+								  <th>Start Date</th>   
+								  <th>Due Date</th>
+								  <th>Assigned,hrs</th>
+								  <th>Logged,hrs</th>
+								  <th>Status</th>
+								  <th>Priority</th>
+							  </tr>
+						  </thead>   
+						  <tbody>
+							  
+							<!--row-->
+							<tr>
+								<td >iOS Application- Media Event</td>
+								<td><img src="images/user5.jpg" class="toosumm-team-users78"/> </td>
+								<td>10/08/2018</td>
+								<td>10/30/2018</td>
+								<td>90</td>
+								<td>49.6</td>
+								<td><i class="fa fa-play-circle-o" aria-hidden="true"></i> In Progress</td>
+								<td>Regular</td>
+								
+							</tr>
+							<!--/.row-->
+
+							<!--row-->
+							<tr>
+								<td >iOS Application- Media Event</td>
+								<td><img src="images/user5.jpg" class="toosumm-team-users78"/> </td>
+								<td>10/08/2018</td>
+								<td>10/30/2018</td>
+								<td>90</td>
+								<td>49.6</td>
+								<td><i class="fa fa-play-circle-o" aria-hidden="true"></i> In Progress</td>
+								<td>Regular</td>                                       
+							</tr>
+							<!--/.row-->
+							
+						  </tbody>
+						</table>
+					</div>
+					
+					
+				</div>
+			   
+			</div>
+			<div id="fade" class="black_overlay"></div>
+			
+		</div>
+	</div>
+	
+	<footer class="toosum-footer">
+	    <div class="container">
+		    <div class="row toosum-footer-margin">
+			    <div class="col-md-6">
+				    <ul class="ts-footer-menu-list">
+					    <li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+					<p class="toosum-copyright">©2008–2018 <a href="#">Ranks Digital Media</a>,All Rights Reserved</p>
+					
+				</div>
+				
+				<div class="col-md-6">
+				    <ul class="ts-footer-social-icons">
+					    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					</ul>				 
+				</div>
+			</div>
+		</div>	
+	</footer>
+	
+	<!-- Jquery min -->
+	
+   
+  
+  <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+  
+  
+  
+    <!-- Bootstrap JS -->
+	
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery-3.3.1.slim.min.js" type="text/javascript"></script>
+	<script src="js/popper.min.js" type="text/javascript"></script>
+	
+	
+	<!-- Custom JS -->
+	<script src="js/layout.js" type="text/javascript"></script>
+	
+	<!-- Chosen JS -->
+    <script src="https://harvesthq.github.io/chosen/chosen.jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	document.getElementById('output').innerHTML = location.search;
+$(".chosen-select").chosen();
+	</script>
+	
+	
+
+	<script type="text/javascript">	
+		$( document ).ready(function() {
+        $("#filter-tooglebtn").click(function() {
+            $("#myDIV").toggle();
+        });
+    });
+	</script>
+	
+	<script>
+	   function toosumm_Show(id)
+	   {	   
+			document.getElementById(id).style.display='block';
+			document.getElementById('fade').style.display='block';
+	   }
+	   function toosumm_Close(id)
+	   {	
+			document.getElementById(id).style.display='none';
+			document.getElementById('fade').style.display='none'
+	   }
+	   </script>
+	   
+	   <!-- Calender JS -->
+	  <script
+	  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+	  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+	  crossorigin="anonymous"></script>
+  
+  
+	   <script>
+		  $( document ).ready(function() {
+				$( "#datepicker" ).datepicker();
+				
+			 });
+	  </script> 
+	
+	<!-- smooth scrolling JS -->
+	<!-- <script src="js/smooth-scrolling.js" type="text/javascript"></script> -->
+	
+	
+  </body>
+</html>

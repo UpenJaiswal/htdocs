@@ -1,0 +1,227 @@
+.table-responsive {
+    overflow-x: hidden !important;
+}
+
+.content-wrapper {
+    min-height: 556px !important;
+}
+
+.wrapper {
+    overflow-y: hidden !important;
+}
+
+.box-body .form-group div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-body .form-group div p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.admin_logo {
+    width: 176px;
+    display: block;
+    margin: 0 auto;
+}
+
+.toosum-error-side-margin {
+    margin-left: 0px !important;
+}
+.body-error-page-color{
+background-color: #ecf0f5;
+}
+.toosum-error-content {
+    display: table !important;
+    margin: 0 auto;
+    text-align: center;
+}
+.toosum-error-subcontent{display: table-cell !important; vertical-align: middle;}
+.toosum-error-subcontent h2 {
+    font-size: 72px;
+}
+.btn.toosumm-upload-image-btn {
+    border: 1px solid #5559;
+}
+.toosum-admin-register{width:600px !important; margin-top: 0px !important;}
+.toosumm-social-margin{margin-top: 20px;}
+.toosumm-register-logo{margin-bottom: 5px !important;}
+.toosumm-register-logo a{color:#8bc442 !important; font-weight: 600;}
+.toosumm-register-logo a b{color:#186cb0 !important;}
+.login-box-msg {
+    font-size: 18px;
+    font-weight: 600;
+    color:#1fb5b6 !important;
+}
+.toosum-login-form{margin-top: 2px !important;}
+.toosum-login-panel {
+    margin: 0 auto;
+    display: table;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.toosum-login-panel b {
+   color: #92c33f;
+}
+.toosum-login-img{width:98px !important; margin:0 auto; margin-top: 20px; display: table;}
+.alert-danger {
+    color: #fff !important;
+    background-color: #dd4b39 !important;
+    border-color: #dd4b39 !important;
+}
+.has-feedback label {
+    color: #000;
+    font-weight: 600;
+}
+
+/*  adminastrator drop-down style css */
+.navbar-custom-menu > .navbar-nav > li > .dropdown-menu {
+    box-shadow: 0px 0px 1px #00000080;
+}
+.toosumm-adminastrator-list {
+
+    padding: 2px 10px;
+    background: #3c8dbc;
+    margin-top: 7px;
+    color: #fff !important;
+    border-radius: 6px;
+
+}
+.nav.navbar-nav .dropdown .dropdown-menu .user-body .toosumm-adminastrator-list a {
+
+    color: #fff !important;
+
+}
+.toosumm-edit-profile-file-upload{height: auto !important;}
+
+.toosumm-margin69{margin-top: 35px;}
+.toosumm-padding-left{padding-left: 42px;}
+span.toosumm-box56 {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    margin-top: -34px;
+    border-right: 1px solid #ccc;
+}
+
+span.toosumm-box56 i {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+}
+table#example1 small {
+    display: block;
+}
+
+.toosumm-update-profile {    
+    width: 150px !important;
+}
+input.admin-profile-submit {
+    margin-top: 15px;
+}
+
+/* delete btn css */
+.box-header1 {
+    position: absolute;
+    top: 10px;
+    background: transparent;
+    z-index: 999999;
+    display: none;
+}
+.delete-class{list-style: none;  padding-left: 10px;}
+.delete-class li{display: inline-block;}
+.delete-btn1{padding: 4px 12px !important;}
+
+.removeRow
+{
+background-color: #c2dbff;
+color:#000;
+}
+
+.form-group .chosen-container .chosen-choices {
+    padding-left: 40px;
+}
+
+.form-group .chosen-container .chosen-choices input {
+    height: 34px !important;
+}
+
+.margin-icon-user{margin-top: -46px !important;}
+
+.team-location {
+    width: 100%;
+    list-style: none;
+    padding-left: 0px;
+    padding: 5px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.team-location li {
+   display: inline-block;
+   margin-right: 5px;
+
+}
+.project-details-heading{float: left !important;}
+.team-member23 {
+    width: 45px;
+    margin-right: 6px;
+    margin-bottom: 7px;
+}
+.modal-paddding {
+    padding: 0px !important;
+}
+.modal-paddding .box {margin-bottom: 0px !important;}
+.project-details23 {
+    font-size: 12px !important;
+    color: #fff !important;
+    padding: 5px 7px !important;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.btn-primary:hover {
+    background-color: #3c8dbc !important;
+    border-color: #367fa9 !important;
+}
+.btn-danger:hover {
+    background-color: #dd4b39 !important;
+    border-color: #d73925 !important;
+}
+
+.choosen-margin div {
+    padding-top: 0px !important;
+}
+.choosen-margin .chosen-container-multi .chosen-choices li.search-field input {
+    height: 40px !important;
+}
+.chosen-container-multi .chosen-choices {
+    height: 40px !important;
+    overflow-y: scroll !important;
+}
+.form-group #output {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.task-image1 {
+    padding-left: 0px;
+    list-style: none;
+}
+.task-image1 li {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #f4f4f4;
+    padding: 8px;
+}
+
+.task-image2 {
+    display: block !important;  
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.current_active{display: block !important;}

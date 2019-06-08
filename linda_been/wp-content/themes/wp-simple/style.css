@@ -1,0 +1,13 @@
+/*
+	Theme Name: linda_been
+	Theme URI: http://wordpress.org/
+	Description: The default WordPress theme based on the famous <a href="http://binarybonsai.com/kubrick/">Kubrick</a>.
+	Version: 2.1.0
+	Author: linda_been
+	Author URI: http://binarybonsai.com/
+	Tags: blue, custom header, fixed width, two columns, widgets
+*/
+
+@import "css/reset.css";
+@import "css/wp.css";
+
