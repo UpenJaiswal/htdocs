@@ -16,17 +16,6 @@ $sql = "SELECT * FROM upen where Email='$email' and Phone='$phone'";
 
 
 
-//if ($result=mysqli_query($conn,$sql))
-  //{
-  // Return the number of rows in result set
-//  $rowcount=mysqli_num_rows($result);
-//  printf("Result set has %d rows.\n",$rowcount);
-  // Free result set
-//  mysqli_free_result($result);
-//  }
-
-
-
 
 $result = $conn->query($sql);
 $count=mysqli_num_rows (  $result );
@@ -82,7 +71,11 @@ header('Location: view.php');
         </div>
 </form>
 
+
+
+
 </div>
+
 
   </body>
 </html>
