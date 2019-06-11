@@ -1,17 +1,33 @@
 <?php include('connection.php');
 if (isset($_POST['submit'])) {
-
-
-
 $email = $_POST['email'];
-
 $phone = $_POST['phone'];
 
+if (empty($email)) {
+  	array_push($errors, "Username is required");
+  }
+  if (empty($phone)) {
+  	array_push($errors, "Password is required");
+  }
+
+
+  if (count($errors) == 0) {
+    	$phone = md5($phone);
+    	$query = "SELECT * FROM upen WHERE Email='$email' AND Phone='$phone'";
+    	$results = mysqli_query($db, $query);
+    	if (mysqli_num_rows($results) == 1) {
+    	  $_SESSION['email'] = $email;
+    	  $_SESSION['success'] = "You are now logged in";
+    	  header('location: view.php');
+    	}else {
+    		array_push($errors, "Wrong username/password combination");
+    	}
 
 
 
 
-$sql = "SELECT * FROM upen where Email='$email' and Phone='$phone'";
+
+//$sql = "SELECT * FROM upen where Email='$email' and Phone='$phone'";
 
 
 
@@ -28,12 +44,12 @@ $sql = "SELECT * FROM upen where Email='$email' and Phone='$phone'";
 
 
 
-$result = $conn->query($sql);
-$count=mysqli_num_rows (  $result );
-echo $count;
-if ($result)
-{
-header('Location: view.php');
+//$result = $conn->query($sql);
+//$count=mysqli_num_rows (  $result );
+//echo $count;
+//if ($result)
+//{
+//header('Location: view.php');
 
 
 }
