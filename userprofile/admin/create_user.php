@@ -11,16 +11,16 @@
 	<script type="text/javascript" src="../script.js"></script>
 	<style>
 		.header {
-			background: #003366;
+			background: red;
 		}
 		button[name=save_profile] {
-			background: #003366;
+			background: red;
 		}
 	</style>
 </head>
 <body>
 	<div class="header">
-		<h2>Admin - create user</h2>
+		<h2>Admin - Create User</h2>
 	</div>
 
 	<form method="post" action="create_user.php" enctype="multipart/form-data">
@@ -31,10 +31,10 @@
 		<?php endif; ?>
 		<div class="form-group text-center" style="position: relative;" >
 			<span class="img-div">
-				<img src="images/avatar.jpg" onClick="triggerClick()" id="profileDisplay">
+				<img src="images/avatar.png" onClick="triggerClick()" id="profileDisplay">
 			</span>
 			<input type="file" name="profileImage" onChange="displayImage(this)" id="profileImage" class="form-control" style="display: none;">
-			<label>Profile Image</label>
+			<label></label>
 			<div class="text-center img-placeholder"  onClick="triggerClick()">
 			<button	><p>Click Here </br>to Upload Image</p></button>
 			</div>

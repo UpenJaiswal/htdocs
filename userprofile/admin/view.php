@@ -35,9 +35,9 @@
       width: 100%;
       margin: 8px auto 0px;
       color: white;
-      background: #003366;
+      background: red;
       text-align: center;
-      border: 1px solid #003366;
+      border: 1px solid red;
       border-bottom: none;
       border-radius: 10px 10px 0px 0px;
       padding: 1px;
