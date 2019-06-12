@@ -1,4 +1,4 @@
-<?php include('functions.php') ?>
+<?php include('admin/functions.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +10,7 @@
 	<div class="header">
 		<h2>Login</h2>
 	</div>
-	
+
 	<form method="post" action="login.php">
 
 		<?php echo display_error(); ?>

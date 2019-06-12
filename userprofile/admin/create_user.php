@@ -1,4 +1,4 @@
-<?php include('../functions.php') ?>
+<?php include('functions.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,6 +44,7 @@
 			<textarea name="bio" class="form-control"></textarea>
 		</div>
 
+
 		<?php echo display_error(); ?>
 
 		<div class="input-group">
@@ -56,7 +57,7 @@
 		</div>
 		<div class="input-group">
 			<label>User type</label>
-			<select name="user_type" id="user_type" >
+			<select name="user" id="user_type" >
 				<option value=""></option>
 				<option value="admin">Admin</option>
 				<option value="user">User</option>

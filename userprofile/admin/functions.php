@@ -66,6 +66,9 @@
 				$_SESSION['success']  = "New user successfully created!!";
 				header('location: home.php');
 			}
+
+
+
 			elseif (count($errors) == 0) {
 				$password = md5($password_1);//encrypt the password before saving in the database
 

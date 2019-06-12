@@ -1,95 +1,97 @@
-
 <?php
-include('../functions.php');
-$data="select * from profile ";
-$fetch=mysqli_query($db,$data);
-$i=1;
+	include('functions.php');
 
-
+	if (!isLoggedIn()) {
+		$_SESSION['msg'] = "You must log in first";
+		header('location: login.php');
+	}
+?>
+<?php
+	$db = mysqli_connect("localhost", "root", "", "userprofile");
+	$results = mysqli_query($db, "SELECT * FROM profile");
+	$users = mysqli_fetch_all($results, MYSQLI_ASSOC);
+	//<a href="form.php" class="btn btn-success">New profile</a>
 ?>
 
 
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
+<html>
+<head>
+	<title>ALL USERS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
 
-    <link rel="stylesheet" href="style.css">
   <style>  form, .content {
-        width: 97%;
-        }
+          width: 90%;
+          }
 
-        .header {
-    width: 100%;
-    margin: 8px auto 0px;
-    color: white;
-    background: #003366;
-    text-align: center;
+          .header {
+      width: 100%;
+      margin: 8px auto 0px;
+      color: white;
+      background: #003366;
+      text-align: center;
+      border: 1px solid #003366;
+      border-bottom: none;
+      border-radius: 10px 10px 0px 0px;
+      padding: 1px;
+  }
+
+  table, th, td {
     border: 1px solid #003366;
-    border-bottom: none;
-    border-radius: 10px 10px 0px 0px;
-    padding: 1px;
-}
+    text-align: center;
+  }
+  table.fixed { table-layout:fixed; }
+  table.fixed th td { overflow: hidden; }
+  </style>
 
-table, th, td {
-  border: 1px solid #5F9EA0;
-  text-align: center;
-}
-table.fixed { table-layout:fixed; }
-table.fixed th td { overflow: hidden; }
-</style>
-  </head>
-  <body>
-<div class="header">
+
+</head>
+<body>
+  <div class="header">
   <h2> User Control </h2>
 </div>
     <div class="row">
+		<!-- notification message -->
+		<?php if (isset($_SESSION['success'])) : ?>
+			<div class="error success" >
+				<h3>
+					<?php
+						echo $_SESSION['success'];
+						unset($_SESSION['success']);
+					?>
+				</h3>
+			</div>
+		<?php endif ?>
 
-<form  method="post" >
+	     	   <table class="table table-bordered">
+	          <thead>
+	            <th>Image</th>
+	            <th>Bio</th>
+              <th>Username</th>
+              <th>Email</th>
+              <th>User Type</th>
 
+	          </thead>
+	          <tbody>
+	            <?php foreach ($users as $user): ?>
+	              <tr>
+	                <td> <img src="<?php echo 'images/'  . $user['profile_image'] ?>" width="50" height="50" alt=""><img src="<?php echo '../images/'  . $user['profile_image'] ?>" width="50" height="50" alt=""> </td>
+	                <td> <?php echo $user['bio']; ?> </td>
+                  <td> <?php echo $user['username']; ?> </td>
+                  <td> <?php echo $user['email']; ?> </td>
+                  <td> <?php echo $user['user_type']; ?> </td>
+	              </tr>
+	            <?php endforeach; ?>
+	          </tbody>
+	        </table>
 
-        <div class="col-lg-12">
-          <table class="fixed">
-            <col width=".25px" />
-            <col width="500px" />
-            <col width="500px" />
-						<col width="100px" />
-            <col width="500px" />
-            <col width="200px" />
-
-
-
-
-
-
-            <tr><th>User No.</th><th>User Picture</th><th>About</th><th>Username</th><th>Email</th><th>Type of User</th>
-            </tr>
-<?php while($record=mysqli_fetch_assoc($fetch))   {   ?>
-            <tr>
-             <td> <?php echo $i++;    ?> </td>
-
-             <td> <?php echo $record['profile_image'];  ?> </td>
-
-
-
-            <td> <?php echo $record['bio'];  ?></td>
-
-            <td> <?php echo $record['username'];  ?></td>
-
-            <td> <?php echo $record['email'];  ?></td>
-
-            <td> <?php echo $record['user_type'];  ?></td>
-
-
-
-            <td><button class="btn" input class="input-group" type="submit" name="submit" value="Submit" />  <a style="cursor:pointer; color:white;" href="../index.php?id=<?php echo $record['id'];  ?>">View</a></button></td>
-            </tr>
-
-
-        </div>
-        <?php }  ?>
-</form>
-</div>
-  </body>
-</html>
+	  </div>
+	</body>
+	</html>

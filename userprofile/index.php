@@ -1,5 +1,5 @@
 <?php
-	include('functions.php');
+	include('admin/functions.php');
 
 	if (!isLoggedIn()) {
 		$_SESSION['msg'] = "You must log in first";
@@ -61,8 +61,10 @@
 			</div>
 		</div>
 	</div>
+
+
 	  <div class="content">
-	      <div class="col-4 offset-md-4" style="margin-top: 30px;">
+	      <div class="col-4 offset-md-4" >
 	     	   <table class="table table-bordered">
 	          <thead>
 	            <th>Image</th>
@@ -71,7 +73,7 @@
 	          <tbody>
 	            <?php foreach ($users as $user): ?>
 	              <tr>
-	                <td> <img src="<?php echo 'images/' . $user['profile_image'] ?>" width="90" height="90" alt=""> </td>
+	                <td> <img src="<?php echo 'admin/images/' . $user['profile_image'] ?>" width="90" height="90" alt=""> </td>
 	                <td> <?php echo $user['bio']; ?> </td>
 	              </tr>
 	            <?php endforeach; ?>
