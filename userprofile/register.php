@@ -53,9 +53,10 @@
 		<div class="input-group">
 			<label>Confirm password</label>
 			<input type="password" name="password_2">
+			<input type="hidden" name="user" value="user">
 		</div>
 		<div class="input-group">
-			<button type="submit" name="save_profile" class="btn" name="register_btn">Register</button>
+			<button type="submit"  class="btn" name="save_profile">Register</button>
 		</div>
 		<p>
 			Already a member? <a href="login.php">Sign in</a>
@@ -63,9 +64,7 @@
 
 	</form>
 
-	<!--<?php include_once('processForm.php') ?>
-	//<a href="profiles.php">View all profiles</a>
-	 -->
+
 
 </body>
 </html>

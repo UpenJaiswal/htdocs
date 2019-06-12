@@ -7,8 +7,8 @@
 	}
 ?>
 <?php
-	$conn = mysqli_connect("localhost", "root", "", "image_upload");
-	$results = mysqli_query($conn, "SELECT * FROM users");
+	$db = mysqli_connect("localhost", "root", "", "userprofile");
+	$results = mysqli_query($db, "SELECT * FROM profile");
 	$users = mysqli_fetch_all($results, MYSQLI_ASSOC);
 	//<a href="form.php" class="btn btn-success">New profile</a>
 ?>

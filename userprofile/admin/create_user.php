@@ -2,13 +2,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Registration system PHP and MySQL - Create user</title>
 	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+	<script type="text/javascript" src="../script.js"></script>
 	<style>
 		.header {
 			background: #003366;
 		}
-		button[name=register_btn] {
+		button[name=save_profile] {
 			background: #003366;
 		}
 	</style>
@@ -17,8 +22,27 @@
 	<div class="header">
 		<h2>Admin - create user</h2>
 	</div>
-	
-	<form method="post" action="create_user.php">
+
+	<form method="post" action="create_user.php" enctype="multipart/form-data">
+		<?php if (!empty($msg)): ?>
+			<div class="alert <?php echo $msg_class ?>" role="alert">
+				<?php echo $msg; ?>
+			</div>
+		<?php endif; ?>
+		<div class="form-group text-center" style="position: relative;" >
+			<span class="img-div">
+				<img src="images/avatar.jpg" onClick="triggerClick()" id="profileDisplay">
+			</span>
+			<input type="file" name="profileImage" onChange="displayImage(this)" id="profileImage" class="form-control" style="display: none;">
+			<label>Profile Image</label>
+			<div class="text-center img-placeholder"  onClick="triggerClick()">
+			<button	><p>Click Here </br>to Upload Image</p></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label>Bio</label>
+			<textarea name="bio" class="form-control"></textarea>
+		</div>
 
 		<?php echo display_error(); ?>
 
@@ -47,7 +71,7 @@
 			<input type="password" name="password_2">
 		</div>
 		<div class="input-group">
-			<button type="submit" class="btn" name="register_btn"> + Create user</button>
+			<button type="submit" class="btn" name="save_profile"> + Create user</button>
 		</div>
 	</form>
 </body>
