@@ -74,7 +74,7 @@
 	jQuery(document).ready(function(){
 		
 
-  //jQuery( "#menu-mycustom" ).addClass( "nav navbar-nav" );
+  jQuery( "#menu-mycustom" ).addClass( "nav navbar-nav" );
   
   
   
