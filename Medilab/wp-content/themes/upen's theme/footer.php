@@ -75,7 +75,7 @@
 		
 
   //jQuery( "#menu-mycustom" ).addClass( "nav navbar-nav" );
-  jQuery( "#menu-mycustom" ).addClass( "menu active" );
+  //jQuery( "menu-mycustom" ).addClass( "active" );
   
   
   
@@ -131,6 +131,14 @@
 });
 </script>
 
+<script>
+	$(document).ready(function(){
+  $("ul#menu-mycustom li").click(function(){
+    $('ul#menu-mycustom li.active').removeClass("active");
+    $(this).addClass("active");
+});
+});
+</script>	
 
 
 

@@ -14,11 +14,11 @@ function themename_scripts() {
 		
 						
 		wp_enqueue_script('jquery');
-		wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/js/jquery.min.js', array(), '1.0.0', true );
-		wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/js/jquery.easing.min.js', array(), '1.0.0', true );
-		wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/js/custom.js', array(), '1.0.0', true );
-		wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/contactform/contactform.js', array(), '1.0.0', true );
-		wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '1.0.0', true );
+		wp_enqueue_script( 'theme-scripts1', get_template_directory_uri() . '/js/jquery.min.js', array(), '1.0.0', true );
+		wp_enqueue_script( 'theme-scripts2', get_template_directory_uri() . '/js/jquery.easing.min.js', array(), '1.0.0', true );
+		wp_enqueue_script( 'theme-scripts3', get_template_directory_uri() . '/js/custom.js', array(), '1.0.0', true );
+		wp_enqueue_script( 'theme-scripts4', get_template_directory_uri() . '/contactform/contactform.js', array(), '1.0.0', true );
+		wp_enqueue_script( 'theme-scripts5', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '1.0.0', true );
 		
 		
 		 

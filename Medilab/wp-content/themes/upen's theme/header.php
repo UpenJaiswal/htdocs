@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 	<?php wp_head(); ?>
+		
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body <?php body_class(); ?>>
 
  <!--banner-->
@@ -27,14 +29,10 @@
 				      </button>
               <a class="navbar-brand" href="#"><img src="<?php bloginfo ('template_url'); ?>/img/logo.png" class="img-responsive" style="width: 140px; margin-top: -16px;"></a>
             </div>
-            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-              <ul class="nav navbar-nav">
-			  
+          
                 <?php wp_nav_menu( array( 'auto-container-fluid' => '', 'theme_location' => 'primary', 'container_class' => 'collapse navbar-collapse navbar-right' ) ); ?>
 				
-				
-              </ul>
-            </div>
+		
           </div>
         </div>
       </nav>
