@@ -95,6 +95,17 @@ function register_my_menus() {
 add_action( 'init', 'register_my_menus' );
 // wp nav menu option end here
 
+
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+
+function special_nav_class ($classes, $item) {
+    if (in_array('current-page-ancestor', $classes) || in_array('current-menu-item', $classes) ){
+        $classes[] = 'active ';
+    }
+    return $classes;
+}
+
+
 // projects custom post type
 add_action('init', 'create_projects');
 function create_projects() {

@@ -75,6 +75,7 @@
 		
 
   //jQuery( "#menu-mycustom" ).addClass( "nav navbar-nav" );
+  jQuery( "#menu-mycustom" ).addClass( "menu active" );
   
   
   
