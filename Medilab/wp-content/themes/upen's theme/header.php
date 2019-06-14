@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
               <ul class="nav navbar-nav">
 			  
-                <?php wp_nav_menu( array( 'auto-container-fluid' => '', 'theme_location' => 'primary', 'container_class' => 'main-menu' ) ); ?>
+                <?php wp_nav_menu( array( 'auto-container-fluid' => '', 'theme_location' => 'primary', 'container_class' => 'collapse navbar-collapse navbar-right' ) ); ?>
 				
 				
               </ul>

@@ -1,0 +1,188 @@
+/*
+Theme Name: my_theme
+Theme URI: http://wordpress.org/themes/twentythi...
+Author: Upen_Jaiswal
+Author URI: http://wordpress.org/
+Description: thi is simple theme.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my_theme
+*/
+
+---------------------------------------------------------->
+<?php
+/**
+* Plugin Name: Very First Plugin
+* Plugin URI: https://www.yourwebsiteurl.com/
+* Description: This is the very first plugin I ever created.
+* Version: 6.0
+* Author: Upen_Jaiswal
+* Author URI: http://yourwebsiteurl.com/
+**/
+--------------------------------------------------------->
+
+
+<?php bloginfo ('template_url'); ?>/
+<?php get_header(); ?>
+<?php get_footer(); ?>
+
+---------------------------------------------------------->
+<?php
+/* Template Name: home */
+get_header(); ?>
+
+-------------------------------------------------------->
+
+<?php the_field('custom_field')?>
+
+
+-------------------------------------------------------->
+<?php if(get_field('repeater_field')): ?>    
+<?php while(has_sub_field('repeater_field')): ?>
+
+<?php endwhile; ?>
+<?php endif; ?>
+
+
+<?php the_sub_field('repeater_content'); ?>
+
+
+------------------------------------------------------->
+on page code----------------->
+<?php 
+       $args = array ( 'post_type' => 'post', 'posts_per_page' => -1);
+       $myposts = get_posts( $args );
+       foreach( $myposts as $post ) : setup_postdata($post);
+          ?>
+
+<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>
+
+<?php echo get_the_post_thumbnail( $page->ID, 'medium' ); ?>
+
+<?php the_field('date');?>
+
+<?php echo  get_the_content(); ?>
+
+<?php echo wp_trim_words( get_the_content(), 60, '...' ); ?>
+
+<?php echo get_the_author_meta('first_name'); ?><?php echo get_the_author_meta('last_name'); ?>
+
+
+<?php 
+endforeach; 
+wp_reset_postdata();
+?>
+
+in function.php for registering post--------------->
+function create_posttypes() {
+ 
+    register_post_type( 'blog',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'blog' ),
+                'singular_name' => __( 'blog' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'blog'),
+			'supports' => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+        )
+    );
+}
+add_action( 'init', 'create_posttypes' );
+------------------------------------------------------->
+
+
+for using between form tag-------->
+<?php echo do_shortcode('[contact-form-7 id="435" title="Contact form 1"]');?>
+
+
+for linking page to button------->
+<?php echo get_home_url(); ?>
+
+
+------------------------------------------------------>
+for making widget use this in function.php----------->
+
+function wpb_widgets_init() {
+registering sidebar----------->
+register_sidebar( array(
+        'name' =>__( 'Footer-1', 'wpb'),
+        'id' => 'footer-1',
+        'description' => __( 'Appears on the static front page template', 'wpb' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
+ }
+add_action( 'widgets_init', 'wpb_widgets_init' );
+
+
+
+use this in field----------->
+<?php dynamic_sidebar( 'footer-1' ); ?>
+
+
+
+--------------------------------------------->
+
+<?php echo get_home_url(); ?>
+
+<?php echo date('Y'); ?>
+
+<?php the_time( get_option( 'date_format' ) ); ?>
+
+---------------------------------------------------------->
+for showing wp menu use this script in footer------>
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		
+
+  jQuery( "ul#menu-mycustom" ).addClass( "menu nav inner-nav" );
+  jQuery( "ul#menu-mycustom li a" ).addClass( "inner-nav desktop-nav" );
+  jQuery( "li#menu-item-664 a" ).addClass( "mn-has-sub" );
+  jQuery( "ul.sub-menu" ).addClass( "mn-sub to-right" );
+  jQuery( "li#menu-item-514 a" ).addClass( "mn-has-sub" );
+  jQuery( "ul.sub-menu" ).addClass( "mn-sub to-right" );
+  
+});
+</script>
+
+and this code in header--------------------------------------->
+
+<?php wp_nav_menu( array( 'auto-container-fluid' => '', 'theme_location' => 'primary', 'container_class' => 'main-menu' ) ); ?>
+
+
+
+---------------------------------------------------------->
+for making menu sticky use this script in footer------>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("header");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+---------------------------------------------------------->
+
+for adjusting menu without script---------->
+#menu-mycustom li {
+	display: inline-block;
+}
+
+
+
+
+
