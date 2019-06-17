@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>javascript lacture</title>
+  </head>
+  <body>
+<script type="text/javascript">
+
+
+//  Arithmetic Operators  //
+
+
+
+var a = 33;
+var b = 10;
+var c = "Test";
+var linebreak = "</br>";
+
+
+
+document.write("a + b = ");
+result= a+b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a - b = ");
+result = a-b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a / b = ");
+result= a/b;
+document.write(result);
+document.write(linebreak);
+
+document.write(" a * b = ");
+result= a*b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a % b = ");
+result= a%b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a + b + c = ");
+result = a+b+c;
+document.write(result);
+document.write(linebreak)
+
+a = ++a;
+document.write("++a = ");
+result= ++a;
+document.write(result)
+document.write(linebreak)
+
+b = --b;
+document.write("--b = ");
+result= --b;
+document.write(result);
+document.write(linebreak);
+document.write(linebreak);
+document.write(linebreak);
+
+//  Comparison Operators  //
+
+var a = 10;
+var b = 20;
+var linebreak = "</br>";
+
+
+document.write("(a == b) =>");
+result =(a == b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(a < b) =>");
+result = (a < b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(a != b) =>");
+result = (a != b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(a >= b) =>");
+result = (a >= b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(a <= b) =>");
+result = (a <= b);
+document.write(result);
+document.write(linebreak);
+document.write(linebreak);
+document.write(linebreak);
+
+
+// Logical Operators //
+
+var a = true;
+var b = false;
+var linebreak = "</br>";
+
+document.write("(a && b) =>");
+result = (a && b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(a || b) =>");
+result = (a || b);
+document.write(result);
+document.write(linebreak);
+
+document.write("!(a && b)=>");
+result = (!(a && b));
+document.write(result);
+document.write(linebreak);
+document.write(linebreak);
+document.write(linebreak);
+
+//Bitwise Operators //
+
+
+var a = 2; //Bit presentation 10//
+var b = 3; //Bit presentation 11//
+var linebreak = "</br>";
+
+document.write("(a & b) =>"); //& (Bitwise AND)-->It performs a Boolean AND operation on each bit of its integer arguments.//
+result = (a & b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(a | b) =>"); // | (BitWise OR)-->It performs a Boolean OR operation on each bit of its integer arguments.//
+result = (a | b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(a ^ b) =>"); //^ (Bitwise XOR)-->It performs a Boolean exclusive OR operation on each bit of its integer arguments. Exclusive OR means that either operand one is true or operand two is true, but not both.//
+result = (a ^ b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(~b) =>"); //~ (Bitwise Not)-->It is a unary operator and operates by reversing all the bits in the operand.//
+result = (~b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(a << b) =>"); //<< (Left Shift)-->It moves all the bits in its first operand to the left by the number of places specified in the second operand. New bits are filled with zeros. Shifting a value left by one position is equivalent to multiplying it by 2, shifting two positions is equivalent to multiplying by 4, and so on.//
+result =(a << b);
+document.write(result);
+document.write(linebreak);
+
+document.write("(a >> b) =>");
+result = (a >> b);
+document.write(result);
+document.write(linebreak);
+document.write(linebreak);
+document.write(linebreak);
+
+
+//Assignment Operators //
+
+var a = 33;
+var b = 20;
+var linebreak = "</br>";
+
+document.write("Value of a => (a = b) =>");
+result = (a = b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a += b) =>");
+result = (a += b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a -= b) =>");
+result = (a -= b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a *= b) =>");
+result = (a *= b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a /= b) =>");
+result = (a /= b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a %= b) =>");
+result = (a %= b);
+document.write(result);
+document.write(linebreak);
+document.write(linebreak);
+document.write(linebreak);
+
+//Miscellaneous Operators //
+
+//Conditional Operator (? :)//
+
+var a = 10;
+var b = 20;
+var linebreak ="</br>";
+document.write("((a > b) ? 100 : 200) =>");
+result = (a > b) ? 100 : 200;
+document.write(result);
+document.write(linebreak);
+
+document.write("((a < b) ? 100 : 200) =>");
+result = (a < b) ? 100 : 200;
+document.write(result);
+document.write(linebreak);
+document.write(linebreak);
+document.write(linebreak);
+
+
+
+// typeof Operator//
+
+var a = 10;
+var b = "string";
+var linebreak = "</br>"
+result = (typeof b == "string" ? "B is string" : "B is numeric");
+document.write("Result =>");
+document.write (result);
+document.write(linebreak);
+
+result = (typeof a == "string" ? "A is string" : "A is Numeric");
+document.write("Result =>");
+document.write(result);
+document.write(linebreak);
+
+
+
+
+</script>
+
+
+
+
+  </body>
+</html>

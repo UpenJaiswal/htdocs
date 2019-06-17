@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+function myFunction() {
+  document.getElementById("demo0").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+
+<h2>JavaScript in Head</h2>
+
+<p id="demo0">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+</head>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'">Click Me!</button>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo2">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Me!</button>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can show hidden HTML elements.</p>
+
+<p id="demo3" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.display='block'">Click Me!</button>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+
+<h2>JavaScript in Body</h2>
+
+<p id="demo4"></p>
+
+<script>
+document.getElementById("demo4").innerHTML = "My First JavaScript";
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>JavaScript in Body</h2>
+
+<p id="demo5">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo5").innerHTML = "Paragraph changed.";
+}
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>External JavaScript</h2>
+
+<p id="demo6">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>(myFunction is stored in an external file called "myScript.js")</p>
+
+<script src="myScript.js"></script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>External JavaScript</h2>
+
+<p id="demo7">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>(myFunction is stored in an external file called "myScript.js" full URL to link to a script)</p>
+
+<script src="https://www.w3schools.com/js/myScript.js"></script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>External JavaScript</h2>
+
+<p id="demo7">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>(myFunction is stored in an external file called "myScript.js" script located in a specified folder on the current web site)</p>
+
+<script src="/js/myScript.js"></script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>External JavaScript</h2>
+
+<p id="demo8">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>(myFunction is stored in an external file called "myScript.js" script located in the same folder as the current page)</p>
+
+<script src="myScript.js"></script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h1>Using innerHTML</h1>
+<p>My First Paragraph</p>
+
+<p id="demo9"></p>
+
+<script>
+document.getElementById("demo9").innerHTML = 5 + 6;
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h1>Using document.write()</h1>
+<p>My first paragraph.</p>
+
+<script>
+document.write(5 + 6);
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>Using document.write()</h2>
+<p>My first paragraph.</p>
+
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h1>Using window.alert()</h1>
+<p>My first paragraph.</p>
+
+<!--
+<script>
+window.alert(5 + 6);
+</script>
+ -->
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>Activate debugging with F12</h2>
+
+<p>Select "Console" in the debugger menu. Then click Run again.</p>
+
+<script>
+console.log(5 + 6);
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>JavaScript Statements</h2>
+
+<p>In HTML, JavaScript statements are executed by the browser.</p>
+
+<p id="demo10"></p>
+
+<script>
+document.getElementById("demo10").innerHTML = "Hello Dolly.";
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>JavaScript Statements</h2>
+
+<p>JavaScript statements are separated by semicolons.</p>
+
+<p id="demo11"></p>
+
+<script>
+var a, b, c;
+a = 5;
+b = 6;
+c = a + b;
+document.getElementById("demo11").innerHTML = c;
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>JavaScript Statements</h2>
+
+<p>
+The best place to break a code line is after an operator or a comma.
+</p>
+
+<p id="demo12"></p>
+
+<script>
+document.getElementById("demo12").innerHTML =
+"Hello Dolly!";
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+
+<h2>JavaScript Statements</h2>
+
+<p>JavaScript code blocks are written between { and }</p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo13"></p>
+<p id="demo14"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo13").innerHTML = "Hello Dolly!";
+  document.getElementById("demo14").innerHTML = "How are you?";
+}
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>JavaScript Numbers</h2>
+
+<p>Number can be written with or without decimals.</p>
+
+<p id="demo15"></p>
+
+<script>
+document.getElementById("demo15").innerHTML = 10.50;
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+<h2>Javascript strings</h2>
+
+<p>Strings can be written with double or single quotes.</p>
+
+<p id="demo16"></p>
+
+<script>
+document.getElementById("demo16").innerHTML = 'John ';
+</script>
+
+</br>
+</br>
+-------------------------------------------------------------------------
+
+
+
+
+
+
+</body>
+</html>
