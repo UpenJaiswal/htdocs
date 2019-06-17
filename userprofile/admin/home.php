@@ -13,6 +13,14 @@
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<style>
+	a.btn{
+		background-color: red;
+
+		margin-left: 315px;
+		color: white;
+
+	}
+
 	.header {
 		background: red;
 	}
@@ -49,9 +57,9 @@
 					<small>
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i>
 						<br>
-						<a href="home.php?logout='1'" style="color: red;">logout</a>
-						&nbsp; <a href="create_user.php"> + add user</a>
-						<a href="view.php"> + view user</a>
+						<a class ="btn" href="home.php?logout='1'" style="color: red;">logout</a>
+						&nbsp; <a class ="btn" href="create_user.php"> + add user</a>
+						<a class ="btn" href="view.php"> + view user</a>
 					</small>
 
 				<?php endif ?>
