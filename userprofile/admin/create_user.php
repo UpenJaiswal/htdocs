@@ -10,6 +10,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
 	<script type="text/javascript" src="../script.js"></script>
 	<style>
+	a.btn{
+		background-color: red;
+
+    margin-left: 315px;
+    color: white;
+
+	}
 		.header {
 			background: red;
 		}
@@ -73,7 +80,11 @@
 		</div>
 		<div class="input-group">
 			<button type="submit" class="btn" name="save_profile"> + Create user</button>
+			<a class="btn"  href="home.php">Back</a>
 		</div>
+
+
+
 	</form>
 </body>
 </html>

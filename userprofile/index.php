@@ -73,7 +73,8 @@
 	          <tbody>
 	            <?php foreach ($users as $user): ?>
 	              <tr>
-	                <td> <img src="<?php echo 'admin/images/' . $user['profile_image'] ?>" width="90" height="90" alt=""> </td>
+	                <td> <img src="<?php echo 'admin/images/' . $user['profile_image'] ?>" width="90" height="90" alt="">
+									<img src="<?php echo 'images/' . $user['profile_image'] ?>" width="90" height="90" alt=""> </td>
 	                <td> <?php echo $user['bio']; ?> </td>
 	              </tr>
 	            <?php endforeach; ?>
