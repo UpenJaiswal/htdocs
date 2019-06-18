@@ -1,5 +1,3 @@
-<!--The break statement-->
-
   <!DOCTYPE html>
   <html lang="en" dir="ltr">
     <head>
@@ -7,12 +5,14 @@
       <title></title>
     </head>
     <body>
+<!--The break statement-->
+
 <script type="text/javascript">
   var x = 1;
   document.write("Entering the loop</br>");
 while (x < 20) {
   if (x == 5) {
-    break;
+    break;  // breaks out of loop completely
   }
   x = x+1;
   document.write( x + "</br>");
@@ -28,12 +28,48 @@ while (x < 20) {
   while (x < 10) {
     x = x + 1;
     if (x == 5){
-        continue;
+        continue;  // skip rest of the loop body
     }
     document.write( x + "</br>");
   }
   document.write("Exiting the loop!</br>");
 
+</script>
+<!--Using Labels to Control the Flow-->
+
+
+<script type="text/javascript">
+document.write("Entering the loop!</br>");
+outerloop:     //This is the label name
+for (var i = 0; i < 5; i++){
+  document.write("Overloop: "+ i +"</br>");
+innerloop:
+for (var j = 0; j < 5; j++){
+  if (j > 3) break ; //quit the innermost loop
+  if (i == 2) break innerloop; //do the same thing
+  if (i == 4) break outerloop; //quit the outer loop
+  document.write("Innerloop: " + j + " <br />");
+  }
+
+}
+document.write("Exiting the loop!<br /> ");
+
+</script>
+
+<script type="text/javascript">
+  document.write("</br> Entering the loop! </br>");
+  outerloop: // This is label name
+
+  for (var i = 0; i < 3; i++){
+    document.write("Outerloop:" + i + "</br>");
+    for (var j = 0; j < 5; j++){
+      if (j == 3){
+        continue outerloop;
+      }
+      document.write("Innerloop: " + j + "</br>");
+    }
+  }
+  document.write("Exiting the loop!</br>")
 </script>
 
 

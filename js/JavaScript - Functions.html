@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script type="text/javascript">
+    //Calling a Function
+      function sayHello() {
+        document.write("Hello there!");
+      }
+    </script>
+
+
+    <script type="text/javascript">
+    //Function Parameters
+    function sayHelloo(name, age){
+      document.write (name + " is " + age + " years old. ");
+    }
+    </script>
+
+
+    <script type="text/javascript">
+    //The return Statement
+    function concatenate(first, last){
+      var full;
+      full = first + last;
+      return full;
+    }
+    function secondFunction(){
+      var result;
+      result = concatenate('Zara ', 'Ali');
+      document.write(result);
+    }
+
+    </script>
+
+
+
+  </head>
+  <body>
+  <p>Click the following butto to call the function</p>
+<form class="" action="index.html" method="post">
+
+  <input type="button" onclick="sayHello()" value="Say Hello">
+  <br/>
+  <br/>
+  <input type="button" onclick="sayHelloo('Zara', 6)" value="Say Helloo">
+  <br/>
+  <br/>
+  <input type="button" onclick="secondFunction()" value="Call Function">
+
+</form>
+  </body>
+</html>
