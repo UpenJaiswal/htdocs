@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+
+
+    <script type="text/javascript">
+      function Redirect(){
+        window.location = "https://www.facebook.com";
+      }
+    </script>
+
+
+
+    <script type="text/javascript">
+    function Redirect2() {
+      window.location = "https://www.google.com";
+    }
+    document.write("You will be redirected to main page in 10 sec.");
+    setTimeout('Redirect2()', 10000);
+
+    </script>
+
+
+
+    <script type="text/javascript">
+    var browsername = navigator.appName;
+    if( browsername == "Netscape") {
+      window.location = "https://www.google.com";
+    } else if ( browsername == "Microsoft Inter Explorer"){
+      window.location = "https://www.google.com";
+    } else {
+      window.location = "https://www.google.com";
+    }
+
+    </script>
+
+  </head>
+  <body>
+    <p>Click here to goto facebook</p>
+    <form>
+      <input type="button" onclick="Redirect();" value="Redirect Me">
+    </br>
+    </br>
+    <input type="button" onclick="Redirect2();" value="Redirect Me 2">
+  </br>
+  </br>
+  <input type="button" onclick="Redirect3();" value="Redirect Me 3">
+
+    </form>
+
+
+  </body>
+</html>
