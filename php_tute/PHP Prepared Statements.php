@@ -20,7 +20,7 @@ $lastname = "Gupta";
 $email = "sunaina@rdm.com";
 $stmt->execute();
 
-echo "New records created successfully";
+echo "New records added successfully";
 
 $stmt->close();
 $conn->close();
