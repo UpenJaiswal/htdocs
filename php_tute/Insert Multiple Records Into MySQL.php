@@ -2,11 +2,11 @@
 
 
 $sql = "INSERT INTO MyTable (firstname, lastname, email)
-VALUES ('John', 'Doe', 'john@example.com');";
+VALUES ('Upen', 'Jaiswal', 'upen@rdm.com');";
 $sql .= "INSERT INTO MyTable (firstname, lastname, email)
-VALUES ('Mary', 'Moe', 'mary@example.com');";
+VALUES ('Rajan', 'Singh', 'rajan@rdm.com');";
 $sql .= "INSERT INTO MyTable (firstname, lastname, email)
-VALUES ('Julie', 'Dooley', 'julie@example.com')";
+VALUES ('Sunaina', 'Gupta', 'Sunaina@rdm.com')";
 
 if (mysqli_multi_query($conn, $sql)) {
     echo "New records created successfully";
