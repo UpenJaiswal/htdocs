@@ -19,57 +19,8 @@
 </script>
 
 
-
 <script type="text/javascript">
 //Reading Cookies
-function ReadCookie() {
-  var allcookies = document.cookie;
-  document.write ("All Cookies : " + allcookies);
-
-  //get all cookies pairs in an array
-  cookiearray = allcookies.split(';');
-
-  //now take key value pair of this array
-  for (var i = 0; i<cookiearray.length; i++){
-    name = cookiearray[i].split('=')[0];
-    value = cookiearray[i].split('=')[1];
-    document.write ("Key is : " + name + " and Value is : " + value);
-  }
-}
-
-</script>
-
-
-
-<script type="text/javascript">
-  //Setting Cookies Expiry Date by 1 month
-  function WriteCookie2() {
-               var now = new Date();
-               now.setMonth( now.getMonth() + 1 );
-               cookievalue = escape(document.myform.customer.value) + ";"
-
-               document.cookie = "name=" + cookievalue;
-               document.cookie = "expires=" + now.toUTCString() + ";"
-               document.write ("Setting Cookies : " + "name=" + cookievalue );
-            }
-
-
-</script>
-
-
-
-<script type="text/javascript">
-//Deleting a Cookie
-function WriteCookie3() {
-  var now = new Date();
-  now.setMonth( now.getMonth() - 1);
-  cookievalue = escape(document.myform.customer.value) + ";"
-
-  document.cookie = "name=" + cookievalue;
-  document.cookie = "expires=" + now.toUTCString() + ";"
-  document.write("Setting Cookies : " + "name=" + cookievalue);
-}
-
 
 </script>
 
@@ -80,18 +31,6 @@ function WriteCookie3() {
   <body>
 <form name = "myform" action = "">  Enter name: <input type = "text" name = "customer"/>
   <input type = "button" value = "Set Cookie" onclick = "WriteCookie();"/>
-  </br>
-  </br>
-  <p>click the following button and see the result</p>
-  <input type="button" onclick="ReadCookie()" value="Get Cookie">
-</br>
-</br>
-Enter name: <input type = "text" name = "customer"/>
-         <input type = "button" value = "Set Cookie" onclick = "WriteCookie2()"/>
-       </br>
-       </br>
-       Enter name: <input type = "text" name = "customer"/>
-                <input type = "button" value = "Set Cookie" onclick = "WriteCookie3()"/>
 
 </form>
   </body>
