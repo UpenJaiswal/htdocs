@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0;}
+.Contactstyle{
+  width:100%;
+  height: 300px;
+  background: Green;
+  color: White;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Homestyle{
+  width:100%;
+  height: 300px;
+  background: brown;
+  color: White;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
