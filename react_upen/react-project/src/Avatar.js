@@ -7,10 +7,22 @@ import Avatarlist from './Avatarlist';
 
 class Avatar extends Component{
 
+  constructor(){
+    super();
+    this.state ={
+      name : "Welcome to Friend's Zone"
+    }
+  }
 
+  namechange(){
+    this.setState({
+      name : "Hello this is Upen"
+    })
+  }
 
 
   render() {
+
 
     const avatarlistarray = [
     {
@@ -39,15 +51,15 @@ class Avatar extends Component{
   ]
 
   const arrayavatarcard = avatarlistarray.map( (avtarcard, i) => {
-    return <Avatarlist id={avatarlistarray[i].id}
+    return <Avatarlist key={i} id={avatarlistarray[i].id}
                name={avatarlistarray[i].name}
                work={avatarlistarray[i].work}/>
   })
           return (
-    <div className="mainpage">
-    <h1> Welcome to Avatar World</h1>
+    <div className="mainpage tc">
+    <h1>{this.state.name}</h1>
        {arrayavatarcard}
-    <button>Subscribe </button>
+    <button onClick= { () => this.namechange() }>Subscribe </button>
       </div>
       )
   }
