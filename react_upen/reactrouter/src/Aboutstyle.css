@@ -1,8 +1,8 @@
 *{margin: 0; padding: 0;}
 .Aboutstyle{
   width:100%;
-  height: 300px;
-  background: Red;
+  height: 525px;
+  background: #FF00FF;
   color: White;
   display: flex;
   justify-content: center;
