@@ -1,0 +1,12 @@
+installing react-------->
+npm install -g create-react-app
+
++++++++++++++++++++++++++++++++++++++++++++++
+create app----------->
+create-react-app appname
+
+installing reactrouter------------>
+npm install --save react-router-dom
+
+installing bootstrap------------>
+npm install --save bootstrap
