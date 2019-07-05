@@ -10,3 +10,6 @@ npm install --save react-router-dom
 
 installing bootstrap------------>
 npm install --save bootstrap
+
+installing styled-components------------>
+npm install --save styled-components
