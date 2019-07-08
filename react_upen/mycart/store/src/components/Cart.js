@@ -1,11 +1,11 @@
 import React,{Component} from 'react';
 
 
-class Details extends Component{
+class Cart extends Component{
   render(){
     return (
       <div>
-        <h3>Hello from Details</h3>
+        <h3>hello from cart</h3>
       </div>
     )
   }
@@ -13,4 +13,4 @@ class Details extends Component{
 
 
 
-export default Details;
+export default Cart;
