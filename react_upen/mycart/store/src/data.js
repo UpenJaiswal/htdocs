@@ -75,24 +75,23 @@ export const storeProducts = [
   },
   {
     id: 7,
-    title: "OnePlus 7 (Mirror Grey, 6GB RAM, 128GB Storage)",
-    img: "img/product-7.JPG",
-    price: 32999,
-    company: "apple",
-    info:
-      "The OnePlus 7 Pro features a brand new design, with a glass back and front and curved sides. The phone feels very premium but’s it’s also very heavy. The Nebula Blue variant looks slick but it’s quite slippery, which makes single-handed use a real challenge. It has a massive 6.67-inch ‘Fluid AMOLED’ display with a QHD+ resolution, 90Hz refresh rate and support for HDR 10+ content. The display produces vivid colours, deep blacks and has good viewing angles.The phone uses the Qualcomm Snapdragon 855 SoC, which is said to be more power efficient than the previous one. Performance is excellent as the phone can handle heavy apps and games with ease. The new OxygenOS 9.5 debuts some new features such as Fnatic mode for prioritising games over notifications, an in-built screen recording, screenshot editor and more.You also get stereo speakers here, for the first time in a OnePlus device. However, there’s no wireless charging or IP-rated waterproofing. The OnePlus 7 Pro also gets a new camera setup. The main 48-megapixel sensor captures detailed landscapes in both day and night, but we did find the autofocus to be a little inconsistent when shooting macros. The 8-megapixel telephoto camera offer 3x optical zoom, while the 16-megapixel wide-angle camera captures more of the scene in from of you. You also get a 16-megapixel, pop-up selfie camera, which snaps decent selfies. Finally, the 4000mAh battery easily lasts for a full day on one charge and there’s fast charging support too. ",
+    title: "OPPO F11 (Fluorite Purple, 128 GB)  (4 GB RAM)",
+    img: "img/product-7.JPEG",
+    price: 17250,
+    company: "oppo",
+    info:"Oppo F11 smartphone was launched in March 2019. The phone comes with a 6.50-inch touchscreen display.It comes with 4GB of RAM.The Oppo F11 runs Android 9.0 and is powered by a 4,020mAh battery. The Oppo F11 supports VOOC fast charging.As far as the cameras are concerned, the Oppo F11 on the rear packs a 48-megapixel primary camera and a second 5-megapixel camera. The rear camera setup has autofocus. It sports a 16-megapixel camera on the front for selfies.The Oppo F11 runs ColorOS 6.0 based on Android 9.0 and packs 128GB of inbuilt storage that can be expanded via microSD card.Connectivity options on the Oppo F11 include Wi-Fi 802.11 b/g/n, GPS, and Micro-USB with active 4G on both SIM cards. Sensors on the phone include accelerometer, ambient light sensor, proximity sensor, and compass/ magnetometer.It was launched in Fluorite Purple and Marble Green colours.As of 9th July 2019, Oppo F11 price in India starts at Rs. 17,250. ",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 8,
-    title: "Samsung Galaxy Note 9 (Ocean Blue, 128 GB)  (6 GB RAM)",
+    title: "Samsung Galaxy A50 (Black, 64 GB)  (4 GB RAM)",
     img: "img/product-8.JPEG",
-    price: 67900,
+    price: 18490,
     company: "SAMSUNG",
     info:
-      "The new Galaxy Note 9 has much the same hardware and cameras as the Galaxy S9 Plus. The main thing that sets the Galaxy Note 9 apart is its S Pen, which now has added Bluetooth connectivity and can be used as a single-button Bluetooth remote control. Samsung's Experience UI is highly customised but feels smooth and natural to use, with several thoughtful ways to use the S Pen. This phone is a bit too large and heavy, but it has a huge 6.4-inch screen with curved edges and a 4000mAh battery that could last you up to two days. The cameras are great, and Samsung's app gives you a lot to play with. If you want to spend this much money and can live with the bulk, the Galaxy Note 9 delivers a top-class experience.",
+      "The Samsung Galaxy A50 looks a lot like the Galaxy M10 and M20, but it has a few premium features such as a 6.4-inch Super AMOLED screen, an in-display fingerprint sensor, and three rear cameras. The back of this phone has a unique iridescent finish that reflects light dramatically in rainbow patterns. Samsung has used its premium Exynos 9610 SoC which is a solid performer for this price segment and supports camera features such as intelligent scene optimisation and 480fps slow-motion video recording. Performance is generally quite good, especially in terms of the display and battery life. The cameras are versatile but there are situations, such as in low light, when the results could have been better. The Galaxy A50 offers a lot of features that people really look for, and is a good all-rounder that might help Samsung fight off its competitors.",
     inCart: false,
     count: 0,
     total: 0
