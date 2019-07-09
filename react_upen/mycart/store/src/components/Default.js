@@ -5,7 +5,7 @@ class Default extends Component{
   render(){
     return (
       <div>
-        <h3>chutiya hai kya be...shi keyword type kar...</h3>
+        <h3>pagal banaya bada maja aaya...</h3>
       </div>
     )
   }
