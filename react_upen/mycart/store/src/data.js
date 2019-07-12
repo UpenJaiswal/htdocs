@@ -3,7 +3,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "Honor 8X (Blue, 64 GB)  (6 GB RAM)",
-    img: "img/product-1.JPEG",
+    img: "img/product-1.PNG",
     price: 14999,
     company: "HUAWEI",
     info:
@@ -15,7 +15,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Samsung Galaxy M30 (Gradation Black, 4+64 GB)",
-    img: "img/product-2.JPG",
+    img: "img/product-2.PNG",
     price: 14999,
     company: "SAMSUNG",
     info:
@@ -27,7 +27,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "Redmi Note 7 Pro (Neptune Blue, 64 GB)  (4 GB RAM)",
-    img: "img/product-3.JPEG",
+    img: "img/product-3.PNG",
     price: 13399,
     company: "MI",
     info:
@@ -39,7 +39,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "Realme 3 Pro (Nitro Blue, 64 GB)  (6 GB RAM)",
-    img: "img/product-4.JPEG",
+    img: "img/product-4.PNG",
     price: 15999,
     company: "OPPO",
     info:
@@ -52,7 +52,7 @@ export const storeProducts = [
     id: 5,
 
     title: "Asus 6Z(Black, 64 GB)(6 GB RAM) ",
-    img: "img/product-5.JPEG",
+    img: "img/product-5.PNG",
     price: 31999,
     company: "ASUS",
     info:
@@ -64,7 +64,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Asus ZenFone Max Pro M2 (Blue, 32 GB)  (3 GB RAM)",
-    img: "img/product-6.JPEG",
+    img: "img/product-6.PNG",
     price: 9999,
     company: "ASUS",
     info:
@@ -76,7 +76,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "OPPO F11 (Fluorite Purple, 128 GB)  (4 GB RAM)",
-    img: "img/product-7.JPEG",
+    img: "img/product-7.PNG",
     price: 17250,
     company: "oppo",
     info:"Oppo F11 smartphone was launched in March 2019. The phone comes with a 6.50-inch touchscreen display.It comes with 4GB of RAM.The Oppo F11 runs Android 9.0 and is powered by a 4,020mAh battery. The Oppo F11 supports VOOC fast charging.As far as the cameras are concerned, the Oppo F11 on the rear packs a 48-megapixel primary camera and a second 5-megapixel camera. The rear camera setup has autofocus. It sports a 16-megapixel camera on the front for selfies.The Oppo F11 runs ColorOS 6.0 based on Android 9.0 and packs 128GB of inbuilt storage that can be expanded via microSD card.Connectivity options on the Oppo F11 include Wi-Fi 802.11 b/g/n, GPS, and Micro-USB with active 4G on both SIM cards. Sensors on the phone include accelerometer, ambient light sensor, proximity sensor, and compass/ magnetometer.It was launched in Fluorite Purple and Marble Green colours.As of 9th July 2019, Oppo F11 price in India starts at Rs. 17,250. ",
@@ -87,7 +87,7 @@ export const storeProducts = [
   {
     id: 8,
     title: "Samsung Galaxy A50 (Black, 64 GB)  (4 GB RAM)",
-    img: "img/product-8.JPEG",
+    img: "img/product-8.PNG",
     price: 18490,
     company: "SAMSUNG",
     info:
@@ -101,7 +101,7 @@ export const storeProducts = [
 export const detailProduct = {
   id: 1,
   title: "Honor 8X (Blue, 64 GB)  (6 GB RAM)",
-  img: "img/product-1.JPEG",
+  img: "img/product-1.PNG",
   price: 14999,
   company: "HUAWEI",
   info:

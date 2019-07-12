@@ -1,0 +1,32 @@
+create a directory for app------------------>
+mkdir myapp
+cd myapp
+
+
+
+create  a package.json file for application-----------npm init
+
+
+
+install Express in the myapp directory and save it in the dependencies list----------------------->
+npm install express --save
+for automatic refresh install node mon--------->
+npm install -D nodemon
+
+
+To install Express temporarily and not add it to the dependencies list-------------------------->
+npm install express --no-save
+
+
+In the myapp directory, create a file named app.js and Run the app with the following command------------>
+node app.js
+
+
+-------------------------------------------------------
+
+
+Express application generator----------------->
+npx express-generator
+npm install
+SET DEBUG=express-application-generator:* & npm start
+

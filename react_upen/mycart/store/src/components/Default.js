@@ -5,7 +5,7 @@ class Default extends Component{
   render(){
     return (
       <div>
-        <h3>pagal banaya bada maja aaya...</h3>
+        <h3>page not found...</h3>
       </div>
     )
   }

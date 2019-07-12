@@ -16,7 +16,7 @@ class Product extends Component{
    <div
   className="img-container p-5 "
   onClick={() =>
-    value.handleDetail(id) 
+    value.handleDetail(id)
   }
   >
    <Link to='/details'>
@@ -28,6 +28,7 @@ class Product extends Component{
      disabled={inCart ? true : false}
      onClick={() =>{
        value.addToCart(id);
+       value.OpenModal(id);
      }}
      >
      {inCart ? (
@@ -113,8 +114,9 @@ const ProductWrapper = styled.div`
   transition: all .5s linear;
 }
 .cart-btn:hover{
-  color: var(--mainblue);
+  color: black;
   cursor: pointer;
+  background:blue !important;
 }
 &:hover{
   .card{
