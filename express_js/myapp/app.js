@@ -1,31 +1,38 @@
-const express = require('express')
-const app = express()
-const port = 3000
+var express = require("express");
+var app = express();
+var port = 3000;
+
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+ 
+var mongoose = require("mongoose");
+mongoose.Promise = global.Promise;mongoose.connect("mongodb://localhost:27017/node-demo");
+
+var nameSchema = new mongoose.Schema({
+    firstName: String,
+    lastName: String
+   });
+
+var User = mongoose.model("User", nameSchema);
+
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/index.html");
+});
+ 
+//endpoint
+app.post("/addname", (req, res) => {
+    var myData = new User(req.body);
+    myData.save()
+        .then(item => {
+            res.send("Name saved to database");
+        })
+        .catch(err => {
+            res.status(400).send("Unable to save to database");
+        });
+});
 
 
-
-//Respond with Hello World! on the homepage:
-app.get('/', (req, res) => res.send('Hello Wod!'))
-//or
-app.get('/', function (req, res) {
-res.send('Hello Woooold!')
-})
-
-
-//Respond to POST request on the root route (/), the application’s home page:
-app.post('/', function (req, res) {
-res.send('Got a POST request')
-})
-
-//Respond to a PUT request to the /user route:
-app.put('/user', function (req, res) {
-    res.send('Got a PUT request at /user')
-})
-
-
-
-
-
-
-
-app.listen(port, () => console.log(`Express app listening on port ${port}!`))
+app.listen(port, () => {
+ console.log("Server listening on port " + port);
+});
