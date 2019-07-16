@@ -32,7 +32,7 @@ register.save((err, doc) => {
 if (!err)
 res.redirect('register/list');
 else
-console.log('Error during record insertion : ' + err);
+console.log('Error : ' + err);
 });
 }
  
