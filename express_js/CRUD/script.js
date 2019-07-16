@@ -1,20 +1,21 @@
 require('./models/mongodb');
  
-const express = require('express');
+var express = require('express');
 var app = express();
-const path = require('path');
-const exphb = require('express-handlebars');
-const bodyparser = require('body-parser');
+var port = 3000;
+var path = require('path');
+var exphb = require('express-handlebars');
+var bodyparser = require('body-parser');
  
-const registerController = require('./controllers/registerController');
+var registerController = require('./controllers/registerController');
  
 app.use(bodyparser.urlencoded({
 extended: true
 }));
  
 
-app.get('/', (req, res) => {
-res.send('<h2 style="font-family: Malgun Gothic; color: black; text-align: center">Welcome to Registration Page!!</h2> <h3 style="text-align: center"> <a href="/register">Registration Page</a> </h3>');
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/index.html");
 });
 app.use(bodyparser.json());
  
@@ -24,7 +25,7 @@ app.engine('hbs', exphb({ extname: 'hbs', defaultLayout: 'mainLayout', layoutDir
 app.set('view engine', 'hbs');
  
 
-const port = process.env.PORT || 3000;
+
 app.listen(port, () => console.log(`Listening on port ${port}..`));
  
 
