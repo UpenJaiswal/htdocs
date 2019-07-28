@@ -1,0 +1,7 @@
+@include laptop-landscape {
+    .qodef-pricing-info {
+        &.qodef-active {
+            @include qodefTransform(translateY(0));
+        }
+    }
+}

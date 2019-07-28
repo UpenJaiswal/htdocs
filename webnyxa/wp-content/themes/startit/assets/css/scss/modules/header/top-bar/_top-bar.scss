@@ -1,0 +1,108 @@
+$top-bar-height: 40px;
+
+.qodef-top-bar {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+	position: relative;
+    font-weight: 400;
+    height: $top-bar-height;
+    overflow: hidden;
+	z-index:110;
+
+
+    .qodef-grid {
+        height: 100%;
+
+        .qodef-vertical-align-containers {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .qodef-logo-wrapper a {
+        max-height: $top-bar-height;
+    }
+
+    .qodef-position-center {
+
+        p {
+            font-size: 13px;
+            color: #c99e66;
+        }
+    }
+
+	.widget_nav_menu{
+		ul{
+			list-style: none;
+			display:inline-block;
+			vertical-align:middle;
+
+			li{
+				float:left;
+				list-style: none;
+				margin: 0;
+				a{
+					color: #b6b6b6;
+					font-size:13px;
+					font-weight:600;
+					padding: 0 13px 0 0;
+					margin: 0 13px 0 0;
+					position:relative;
+
+                    &:hover {
+                        color: #fff;
+                    }
+
+					&:before{
+						content:'';
+						position:absolute;
+						right:0;
+						top:2px;
+						width:1px;
+						height:12px;
+						background-color: #b6b6b6;
+					}
+
+				}
+				&:last-child a:before{
+					display:none;
+				}
+			}
+		}
+	}
+
+}
+
+.qodef-light-header .qodef-top-bar {
+	color: $header-light-color !important; //Beacause of inline color styles
+
+	.widget {
+		color: $header-light-color !important; //Beacause of inline color styles
+
+		p,
+		a,
+		span,
+		i,
+		.widgettitle {
+			color: $header-light-color !important; //Beacause of inline color styles
+		}
+
+	}
+}
+
+.qodef-dark-header .qodef-top-bar {
+	color: $header-dark-color !important; //Beacause of inline color styles
+
+	.widget {
+		color: $header-dark-color !important; //Beacause of inline color styles
+
+		p,
+		a,
+		span,
+		i,
+		.widgettitle {
+			color: $header-dark-color !important; //Beacause of inline color styles
+		}
+
+	}
+}

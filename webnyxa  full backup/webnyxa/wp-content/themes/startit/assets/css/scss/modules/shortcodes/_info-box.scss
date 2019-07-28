@@ -1,0 +1,114 @@
+/* ==========================================================================
+# Info box style - begin
+========================================================================== */
+
+.qodef-info-box {
+
+    position:relative;
+    text-align:center;
+    width:100%;
+
+    .qodef-info-box-font-side{
+        background-color: #fff;
+        width:100%;
+
+        .qodef-info-box-front-side-inner{
+            vertical-align:middle;
+            padding: 30px;
+        }
+
+        .qodef-info-box-icon-holder{
+            padding: 0 0 26px 0;
+        }
+
+        .qodef-info-box-title{
+            margin:0 0 7px 0;
+        }
+    }
+
+
+    &.qodef-animate{
+        height:280px;
+
+        .qodef-info-box-font-side,
+        .qodef-info-box-back-side{
+            box-sizing: border-box;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -ms-transition: -ms-transform .5s cubic-bezier(0.22, 0.61, 0.36, 1);
+            -webkit-transition: -webkit-transform .5s cubic-bezier(0.22, 0.61, 0.36, 1);
+            transition: transform .5s cubic-bezier(0.22, 0.61, 0.36, 1);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .qodef-info-box-font-side{
+            -ms-transform: rotateY(0deg);
+            -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+        }
+
+        .qodef-info-box-back-side{
+            background-color: $first-main-color;
+            -ms-transform: rotateY(-180deg);
+            -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+            display: table;
+
+            .qodef-info-box-back-side-inner{
+                display: table-cell;
+                vertical-align: middle;
+                padding: 30px;
+            }
+        }
+
+        &:hover .qodef-info-box-font-side{
+            -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+
+        &:hover .qodef-info-box-back-side{
+            -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+        }
+    }
+
+    &.qodef-with-border {
+        .qodef-info-box-font-side{
+            border: 1px solid #dfdfdf;
+        }
+    }
+
+    &.qodef-back-margin{
+        .qodef-info-box-button{
+            margin: 30px 0 0 0;
+        }
+    }
+
+    .qodef-light{
+        color: #fff;
+        .qodef-info-box-title *{
+            color: #fff;
+        }
+        .qodef-btn.qodef-btn-outline{
+            color: #fff !important;
+            border-color:#fff !important;
+        }
+    }
+
+
+}
+
+
+/* ==========================================================================
+# Info box style - end
+========================================================================== */
+
+
+
+
+
+
+
+

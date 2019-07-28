@@ -1,0 +1,92 @@
+.qodef-pricing-slider {
+    text-align: center;
+
+    .qodef-pricing-slider-button-holder {
+        margin-bottom: 116px;
+    }
+
+    .qodef-pricing-slider-button,
+    .qodef-pricing-slider-button-extra {
+        &.active {
+            .qodef-btn {
+                background-color: $first-main-color;
+                border-color: $first-main-color;
+                color: #fff;
+            }
+        }
+    }
+    .qodef-pricing-slider-button-extra {
+        margin-left: 9px;
+    }
+    .qodef-pricing-slider-bar-holder {
+        height: 4px;
+        background-color: #e4e4e4;
+        margin-bottom: 114px;
+        position: relative;
+    }
+    .qodef-pricing-slider-drag {
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: inline-block;
+        background-color: $first-main-color;
+        position: absolute;
+        line-height: 30px;
+        top: -15px !important;
+        left: 0;
+        cursor: pointer;
+        i {
+            font-size: 10px;
+            color: #fff;
+        }
+        z-index: 10;
+    }
+
+    .qodef-pricing-slider-bar {
+        height: 100%;
+        background-color: $first-main-color;
+    }
+
+    .delimiter {
+        width: 3px;
+        height: 4px;
+        background-color: #a1a1a1;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 10%;
+    }
+
+    .qodef-pricing-slider-info-holder {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .qodef-pricing-info {
+        padding: 41px 30px;
+        .qodef-pricing-info-pricing {
+            margin-bottom: 46px;
+        }
+    }
+
+    .qodef-pricing-slider-value-holder  {
+        text-align: center;
+        position: absolute;
+        z-index: 100;
+        opacity: 1;
+        top: 26px;
+        box-sizing: border-box;
+        width: 120px;
+        @include qodefTransform(translateX(calc(-50% - 9px)));
+
+        .qodef-pricing-slider-value {
+            font-size: 15px;
+            font-weight: 500;
+            color: #b2b2b2;
+            display: inline-block;
+            text-align: center;
+            height: 20px;
+            line-height: 20px;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.qodef-service-table {
+
+    table {
+        table-layout: fixed;
+        width: 100%; /* must have this set */
+        thead {
+            tr {
+                border: 1px solid #f0eeed;
+            }
+            th {
+                font-size: 16px;
+                font-weight: 600;
+                color: #202020;
+                border-right: 1px solid #f0eeed;
+                padding: 21px 27px;
+                &:first-child {
+                    text-align: left;
+                    width: 50%;
+                    background-color: #fcfbfc;
+                }
+                &:nth-child(2n + 3) {
+                    background-color: #fafcff;
+                }
+                &:last-child {
+                    border-right: 0;
+                }
+            }
+        }
+        tbody {
+            tr {
+                border: 1px solid #f0eeed;
+            }
+            td {
+                vertical-align: middle;
+                border-right: 1px solid #f0eeed;
+                padding: 12px 27px 7px;
+                font-size: 13px;
+                &:first-child {
+                    background-color: #fcfbfc;
+                    text-align: left;
+                    width: 50%;
+                }
+                &:nth-child(2n + 3) {
+                    background-color: #fafcff;
+                }
+                &:last-child {
+                    border-right: 0;
+                }
+
+                .qodef-mark {
+                    font-size: 26px;
+                    color: #f0eeed;
+                    &.qodef-checked {
+                        color: $first-main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    &.qodef-cols-1 {
+        table {
+            thead {
+                th {
+                    &:first-child {
+                        width: 66.66%;
+                    }
+                }
+            }
+            tbody {
+                td {
+                    &:first-child {
+                        width: 66.66%;
+                    }
+                }
+            }
+        }
+    }
+}

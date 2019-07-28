@@ -1,0 +1,6 @@
+2019-07-26T17:52:59+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\webnyxa\wp-includes\Requests\Transport\cURL.php on line 463
+
+2019-07-26T17:53:01+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\webnyxa\wp-includes\Requests\Transport\cURL.php on line 463
+
+2019-07-26T18:00:19+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\webnyxa\wp-includes\Requests\Transport\cURL.php on line 163
+
