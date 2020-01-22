@@ -1,0 +1,55 @@
+@import "variables.less";
+
+.loop-pagination() {
+    display: block;
+    a:hover {
+        color: @brand-color;
+    }
+    span.current, span.dots, a {
+        &.current, &:hover {
+            color: @brand-color;
+        }
+        &.prev, &.next {         
+            font-size: @font-size-small + 7px;
+            padding: 0 8px;
+        }
+        &.page-numbers{
+            display: none;
+        }
+        &.prev, &.next{
+            display: inline-block;
+            padding: 5px 14px;
+            background-color: @white-lighter;
+            border: 1px solid @gray;
+            border-radius: 15px;
+            font-size: @font-size-base + 1px;
+            line-height: 1.375;
+            font-weight: 300;
+            font-family: "@{google-font-family-2}", sans-serif;
+        }
+        &.prev {
+            float: left;
+        }
+        &.next {
+            float: right;
+        }
+        i {
+            font-family: FontAwesome;
+            &.prev::before {
+                content: "\f104";
+                padding-right: 9px;
+            }
+            &.next::before {
+                content: "\f105";
+                padding-left: 6px;
+            }
+        }
+    }
+}
+
+nav.paging-navigation {
+    margin-top: 90px;
+    .loop-pagination {
+        .loop-pagination();
+    }
+}

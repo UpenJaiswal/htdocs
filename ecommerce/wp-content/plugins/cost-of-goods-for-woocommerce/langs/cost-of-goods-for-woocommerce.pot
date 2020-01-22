@@ -1,0 +1,375 @@
+#: cost-of-goods-for-woocommerce.php:154
+msgid "Settings"
+msgstr ""
+
+#: cost-of-goods-for-woocommerce.php:157
+msgid "Unlock All"
+msgstr ""
+
+#: includes/class-alg-wc-cost-of-goods-admin.php:46
+#: includes/settings/class-alg-wc-settings-cost-of-goods.php:24
+msgid "Cost of Goods"
+msgstr ""
+
+#: includes/class-alg-wc-cost-of-goods-admin.php:62
+#: includes/class-alg-wc-cost-of-goods-admin.php:80
+#: includes/class-alg-wc-cost-of-goods-admin.php:111
+#: includes/class-alg-wc-cost-of-goods-core.php:268
+#: includes/class-alg-wc-cost-of-goods-core.php:312
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:230
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:239
+msgid "Cost"
+msgstr ""
+
+#: includes/class-alg-wc-cost-of-goods-admin.php:63
+#: includes/class-alg-wc-cost-of-goods-admin.php:83
+#: includes/class-alg-wc-cost-of-goods-admin.php:114
+msgid "Profit"
+msgstr ""
+
+#: includes/class-alg-wc-cost-of-goods-core.php:99
+msgid "Cost of goods"
+msgstr ""
+
+#: includes/class-alg-wc-cost-of-goods-core.php:269
+#: includes/class-alg-wc-cost-of-goods-core.php:313
+msgid "excl. tax"
+msgstr ""
+
+#: includes/class-alg-wc-cost-of-goods-core.php:270
+#: includes/class-alg-wc-cost-of-goods-core.php:316
+#, php-format
+msgid "Profit: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:52
+msgid "Admin Orders List Columns"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:54
+msgid ""
+"This section lets you add custom columns to WooCommerce admin orders list."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:58
+msgid "Order cost"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:59
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:76
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:105
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:125
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:132
+msgid "Add"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:65
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:82
+msgid "Order statuses"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:66
+msgid "Select order statuses to show cost."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:67
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:84
+msgid "Leave empty to show for all orders."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:75
+msgid "Order profit"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:83
+msgid "Select order statuses to show profit."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:99
+msgid "Admin Order Meta Box"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:104
+msgid "Order meta box"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:118
+msgid "Admin Products List Columns"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:120
+msgid ""
+"This section lets you add custom columns to WooCommerce admin products list."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:124
+msgid "Product cost"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:131
+msgid "Product profit"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:145
+msgid "Reports"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:151
+msgid "Reports > Orders > Cost of Goods"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-general.php:152
+msgid "Reports > Stock > Cost of Goods"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:24
+msgid "Tools"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:38
+msgid "Bulk Edit Costs Tool"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:40
+#, php-format
+msgid "Bulk Edit tool is in %s."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:41
+msgid "Tools > Bulk Edit Costs"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:45
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:314
+msgid "Search products"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:51
+msgid "Search by title"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:52
+msgid "Search all"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:56
+msgid "Edit prices"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:57
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:64
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:63
+msgid "Manage stock"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:70
+msgid "Stock update method"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:71
+msgid "Ignored unless \"Manage stock\" checkbox is enabled above."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:77
+msgid "Update product meta"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:78
+msgid "Use product functions"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:86
+msgid "Import Costs Tool"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:88
+#, php-format
+msgid "Import tool is in %s."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:89
+msgid "Tools > Import Costs"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:93
+msgid "Key to import from"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:103
+msgid "Orders Tools"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:108
+msgid "Recalculate orders cost and profit for all orders"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:109
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:122
+msgid "Recalculate"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:110
+msgid "Set items costs in all orders (overriding previous costs)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:111
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:124
+msgid "Enable the checkbox and save changes to run the tool."
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:121
+msgid "Recalculate orders cost and profit for orders with no costs"
+msgstr ""
+
+#: includes/settings/class-alg-wc-cost-of-goods-settings-tools.php:123
+msgid "Set items costs in orders that do not have costs set."
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-cost-of-goods.php:38
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-cost-of-goods.php:43
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-cost-of-goods.php:44
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-cost-of-goods.php:45
+msgid "Enable the checkbox and save changes to reset the settings."
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-cost-of-goods.php:84
+msgid "Your settings have been reset."
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:145
+msgid "Costs have been saved."
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:165
+#, php-format
+msgid "Sale price is higher than regular price: %s."
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:178
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:179
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:322
+msgid "Bulk Edit Costs"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:228
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:237
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:60
+msgid "Product ID"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:229
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:238
+msgid "Title"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:231
+msgid "Regular price"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:232
+msgid "Sale price"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:233
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:241
+msgid "Stock"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:240
+msgid "Price"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:289
+#, php-format
+msgid "Stock status: %s"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:312
+msgid "Save all"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:314
+msgid "Search by product title"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:316
+msgid "Product title..."
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:316
+msgid "Search..."
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:323
+msgid "Bulk edit products costs/prices/stock."
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:324
+#, php-format
+msgid "Tool's options can be set in \"%s\" %s."
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:325
+msgid "Cost of Goods for WooCommerce"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-bulk-edit-tool.php:326
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:92
+msgid "plugin settings"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:35
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:36
+msgid "Import Costs"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:61
+msgid "Product Title"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:62
+#, php-format
+msgid "Source %s"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:63
+#, php-format
+msgid "Destination %s"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:85
+msgid "Import"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:86
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:89
+msgid "Costs Import"
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:90
+msgid "Import products costs to \"Cost of Goods for WooCommerce\" plugin."
+msgstr ""
+
+#: includes/tools/class-alg-wc-cost-of-goods-import-tool.php:91
+#, php-format
+msgid "Tool's options can be set in %s."
+msgstr ""

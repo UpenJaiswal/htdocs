@@ -1,0 +1,42 @@
+{
+    "date_updated": null,
+    "points": {
+        "earn_point_enabled": 0,
+        "loyalty_campaign_enabled" : 0,
+        "redeem_theme_status" : 0,
+        "earn_point_theme_status": 0,
+        "earn_point_per_dollar": 100,
+        "purchase_theme_status": 0,
+        "redeem_purchase_status": 0,
+        "redeem_point_per_dollar": 100,
+        "currency": "$",
+        "minimum_order_value": 0,
+        "gr_restricted_user_roles": null,
+        "gr_disable_non_loggedin":0,
+        "reward_points_type":"SUBTOTAL"
+    },
+    "lang": {
+        "point_lable": null,
+        "points_lable": null,
+        "earn_point_per_dollar_lable": null,
+        "redeem_point_per_dollar_lable": null,
+        "redeem_point_product_per_dollar_lable": null,
+        "redeem_btn_text": null,
+        "redeemed_btn_text": null,
+        "redeemed_status_msg": null,
+        "label_redeemed_points": null,
+        "label_life_time_points": null,
+        "label_available_points": null,
+        "label_exclusion_points": null,
+        "error_more_points_required": null,
+        "label_total_points": null,
+        "no_records_found": null,
+        "loyalty_menu_name" : "GR Loyalty"
+    },
+    "reviews": {
+        "global_review_enabled": 0,
+        "global_review_points": 0,
+        "global_review_lable_enabled": 0,
+        "global_review_lable": null
+    }
+}

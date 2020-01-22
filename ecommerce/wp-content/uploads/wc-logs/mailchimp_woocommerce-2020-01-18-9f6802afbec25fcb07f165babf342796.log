@@ -1,0 +1,21 @@
+2020-01-18T05:32:36+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons starts in the next minute
+2020-01-18T05:32:58+00:00 NOTICE sync.started :: Starting Sync :: Sat, Jan 18, 2020 5:32 AM
+2020-01-18T05:33:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons_Initial_Sync starts in the next minute
+2020-01-18T05:33:14+00:00 NOTICE coupon_sync.completed :: Done with the coupon sync, queuing up products.
+2020-01-18T05:33:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products starts in the next minute
+2020-01-18T05:33:23+00:00 NOTICE product_sync.success :: addStoreProduct :: #42
+2020-01-18T05:33:29+00:00 NOTICE product_sync.success :: addStoreProduct :: #45
+2020-01-18T05:33:34+00:00 NOTICE product_sync.success :: addStoreProduct :: #47
+2020-01-18T05:33:39+00:00 NOTICE product_sync.success :: addStoreProduct :: #48
+2020-01-18T05:33:44+00:00 NOTICE product_sync.success :: addStoreProduct :: #49
+2020-01-18T05:33:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products starts in the next minute
+2020-01-18T05:34:18+00:00 NOTICE product_sync.success :: addStoreProduct :: #50
+2020-01-18T05:35:11+00:00 ERROR product_sync.error :: addStoreProduct :: 51 :: Error Code 500 :: CURL error :: Operation timed out after 30000 milliseconds with 0 bytes received on 1706 in C:\xampp\htdocs\ecommerce\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-01-18T05:35:41+00:00 ERROR product_sync.error :: addStoreProduct :: 53 :: Error Code 500 :: CURL error :: Empty reply from server on 1706 in C:\xampp\htdocs\ecommerce\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-01-18T05:36:00+00:00 NOTICE product_sync.success :: addStoreProduct :: #370
+2020-01-18T05:36:31+00:00 NOTICE product_sync.success :: addStoreProduct :: #1716
+2020-01-18T05:36:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products starts in the next minute
+2020-01-18T05:37:26+00:00 NOTICE product_sync.completed :: Done with the product sync :: queuing up the orders next!
+2020-01-18T05:37:28+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders starts in the next minute
+2020-01-18T05:38:00+00:00 NOTICE order_submit.completed :: Done with the order sync.
+2020-01-18T05:38:01+00:00 NOTICE sync.completed :: Finished Sync :: Sat, Jan 18, 2020 5:38 AM

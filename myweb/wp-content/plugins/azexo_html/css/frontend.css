@@ -1,0 +1,8 @@
+#wp-admin-bar-azh-frontend-builder > .ab-item:before {
+    content: "\f489";
+    top: 2px;
+}
+
+.az-hidden {
+    display: none;
+}
